@@ -13,38 +13,177 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-    color: white;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:active {
+    outline: none;
+}
+
+a:focus {
+	outline: 3px solid #000;
+}
+
+.skip-links {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.skip-links a {
+	padding: 0.5em 0.75em;
+	position: absolute;
+	top: -3em;
+    background-color: #000;
+    color: #fff;
+	font-size: 1.125em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.skip-links a:focus {
+	top: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+        
+.masthead {
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  color: #ffff00;
+}
+
+.nav {
+  padding: 0;
+}
+
+.logo {
+    height: 7rem;
+    width: auto;
+    padding: .5rem 3%;
+    margin: 0 0 1rem;
+}
+
+.logo-wrap {
+    text-align: center;
 }
 
 
-.ima1 {
-    background-attachment: fixed;
+.nav li {
+  display: block;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+  background-color: #b00000;
+  color: #fff;
+}
+
+.section-dark {
+  background-color: white;
+  overflow: hidden;
+  background-image: url(../images/venus-graphic.png);
+  background-size: 15rem;
+  background-repeat: no-repeat;
+  background-position:top
+}
+
+.section-mid {
+  background-color: #fffff0;
+}
+
+.section {
+  background-color: #ffffcc;
+}
+
+.intro {
+  text-align: center;
+}
+
+.discovery-title-extra {
+  display: none;
+}
+
+.copyright { 
+  text-align: center;
+  color: yellow
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .nav-footer a,
+  .nav-footer a:link,
+  .nav-footer a:visited {
+    display: inline-block;
+    color: #ffff00;
+   
+}
     
 }
+@media only screen and (min-width: 38em) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.logo-wrap {
+    text-align: left;
+}
+}
 
 
