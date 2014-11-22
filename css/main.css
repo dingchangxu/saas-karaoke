@@ -5,10 +5,18 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+    min-height: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
+    background-image: url("../images/backgroundf.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    <!--background-position: center 6em;-->
+    background-position: center 16rem;
+    background-attachment: fixed;
+    
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -43,9 +51,56 @@ html {
   box-sizing: inherit;
 }
 
+#header {
+    position: fixed;
+    height: 70px;
+    z-index: 11;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: #00ADEF;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: -.5rem;
+}
+
+.sing {
+    position: fixed;
+    text-align: center;
+    padding-left: 43%;
+    padding-bottom: 1rem;
+    margin-top: 40%;
+    z-index: 8;
+}
+
+
+
+.button {
+    text-align: center;
+    margin-top: -1.5rem;
+    
+}
+
+
+button {
+    font-size: 2em;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    border-radius: 26px;
+    background-image: linear-gradient(45deg, black, #00ADEF, black);
+    color: #fff;
+    padding: 0.5em .7em;
+    cursor: pointer;
+    text-align: center;
+}
+
+
 body {
   margin: 0;
   padding: 0;
+    
+
 }
 
 a:link,
@@ -78,6 +133,12 @@ a:focus {
 	top: 0;
 }
 
+.imgb {
+    width: 100%;
+    position: fixed;
+}
+
+
 .img-flex {
   display: block;
   width: 100%;
@@ -89,7 +150,7 @@ a:focus {
 
 .title {
   text-align: center;
-  color: #ffff00;
+  color: #00ADEF;
 }
 
 .nav {
@@ -97,10 +158,9 @@ a:focus {
 }
 
 .logo {
-    height: 7rem;
+    height: 4rem;
     width: auto;
     padding: .5rem 3%;
-    margin: 0 0 1rem;
 }
 
 .logo-wrap {
@@ -126,17 +186,20 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-  background-color: #b00000;
+  background-color: #00ADEF;
   color: #fff;
 }
 
 .section-dark {
-  background-color: white;
-  overflow: hidden;
-  background-image: url(../images/venus-graphic.png);
-  background-size: 15rem;
+  background-color: black;
+  /*overflow: hidden;
+  background-size: 13rem;
   background-repeat: no-repeat;
-  background-position:top
+  background-position:top;*/
+  height: 4rem;
+  position: fixed;
+  width: 100%;
+  
 }
 
 .section-mid {
@@ -157,7 +220,7 @@ a:focus {
 
 .copyright { 
   text-align: center;
-  color: yellow
+  color: yellow;
 }
 
 @media only screen and (min-width: 25em) {
@@ -185,5 +248,31 @@ a:focus {
     text-align: left;
 }
 }
+
+
+#bodycope {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 50em;
+    margin-top: 0%;
+    background-color: #333;
+    height: 100rem;
+    color: white;
+    z-index: 10;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
