@@ -13,9 +13,9 @@ html {
     background-image: url("../images/backgroundf.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    <!--background-position: center 6em;-->
-    background-position: center 16rem;
+    background-position: center 4.5em;
     background-attachment: fixed;
+    
     
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -62,39 +62,77 @@ h1 {
     color: #00ADEF;
     font-size: 2.5rem;
     text-align: center;
+    table-layout: auto;
     margin-bottom: -.5rem;
+    text-shadow: rgba(6,7,0,3)  1px 2px 4px;
+
 }
 
 .sing {
     position: fixed;
     text-align: center;
     padding-left: 43%;
-    padding-bottom: 1rem;
+    padding-bottom: 0;
     margin-top: 40%;
     z-index: 8;
 }
 
+.s1 {
+    width: auto;
+    line-height: 3rem;
+    margin-bottom: .3rem;
+    
+}
 
+.s2 {
+    width: auto;
+    line-height: 2rem;
+    
+}
 
 .button {
     text-align: center;
-    margin-top: -1.5rem;
+    margin-top: -.5rem;
     
 }
 
 
 button {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
-    /*text-transform: uppercase;*/
-    border-radius: 26px;
-    background-image: linear-gradient(45deg, black, #00ADEF, black);
-    color: #fff;
-    padding: 0.5em .7em;
+    /*text-transform: uppercase;
+    -webkit-border-radius: 39px;*/
+    background-image: linear-gradient(0deg, black, #00ADEF, black);
+    color: white;
+    padding: 0.4em .5em;
     cursor: pointer;
     text-align: center;
+    box-shadow: rgba(6,7,0,1) 0 1.5px 0;
+    text-shadow: rgba(6,7,0,1) 2px 4px 3px;
+    -webkit-border-radius: 30px;
+    -webkit-box-shadow: 4px 4px 5px #555;
+    box-shadow: 2px 2px 7px #555;
+    /*-webkit-transition: 10.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    transition: 0.3s ease all;*/
+    
+    
 }
 
+
+
+.btn:hover {
+    background-color: transparent;
+    position: relative;
+    top: -1px;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    border-bottom-width: 1px;
+}
 
 body {
   margin: 0;
@@ -158,9 +196,9 @@ a:focus {
 }
 
 .logo {
-    height: 4rem;
+    height: 3.7rem;
     width: auto;
-    padding: .5rem 3%;
+    padding: .1rem 9%;
 }
 
 .logo-wrap {
@@ -176,7 +214,7 @@ a:focus {
 .nav a:link,
 .nav a:visited {
   display: block;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -203,11 +241,11 @@ a:focus {
 }
 
 .section-mid {
-  background-color: #fffff0;
+  background-color: #fff;
 }
 
 .section {
-  background-color: #ffffcc;
+  background-color: #fff;
 }
 
 .intro {
@@ -220,7 +258,7 @@ a:focus {
 
 .copyright { 
   text-align: center;
-  color: yellow;
+  color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
@@ -237,7 +275,7 @@ a:focus {
   .nav-footer a:link,
   .nav-footer a:visited {
     display: inline-block;
-    color: #ffff00;
+    color: #fff;
    
 }
     
@@ -260,7 +298,8 @@ a:focus {
     height: 100rem;
     color: white;
     z-index: 10;
-    
+    text-shadow: rgba(6,7,0,1) 2px 4px 3px;
+
     
 }
 
