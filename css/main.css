@@ -68,11 +68,15 @@ h1 {
 
 }
 
+h3 {
+    color: #00ADEF;
+}
+
 .sing {
     position: fixed;
     text-align: center;
-    padding-left: 43%;
-    padding-bottom: 0;
+    padding-left: 21rem;
+    padding-bottom: 1rem;
     margin-top: 40%;
     z-index: 8;
 }
@@ -80,7 +84,7 @@ h1 {
 .s1 {
     width: auto;
     line-height: 3rem;
-    margin-bottom: .3rem;
+    margin-bottom: .5rem;
     
 }
 
@@ -120,8 +124,6 @@ button {
     
 }
 
-
-
 .btn:hover {
     background-color: transparent;
     position: relative;
@@ -137,8 +139,12 @@ button {
 body {
   margin: 0;
   padding: 0;
-    
+}
 
+
+#bodycope {
+    margin: 0;
+    padding: 1.5rem;
 }
 
 a:link,
@@ -196,9 +202,9 @@ a:focus {
 }
 
 .logo {
-    height: 3.7rem;
+    height: 4rem;
     width: auto;
-    padding: .1rem 9%;
+    padding: .2rem 5%;
 }
 
 .logo-wrap {
@@ -216,6 +222,7 @@ a:focus {
   display: block;
   color: white;
   text-decoration: none;
+  
 }
 
 .nav a:hover,
@@ -292,10 +299,10 @@ a:focus {
     width: 100%;
     text-align: center;
     position: relative;
-    top: 50em;
+    top: 40rem;
     margin-top: 0%;
     background-color: #333;
-    height: 100rem;
+    height: 80rem;
     color: white;
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 2px 4px 3px;
