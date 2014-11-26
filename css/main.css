@@ -142,10 +142,32 @@ body {
 }
 
 
+
 #bodycope {
-    margin: 0;
+    width: 100%;
     padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 40rem;
+    margin-top: 0%;
+    background-color: #333;
+    height: 40rem;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 2px 4px 3px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -268,7 +290,7 @@ a:focus {
 
 .copyright { 
   text-align: center;
-  color: #fff;
+  color: black;
 }
 
 /*@media only screen and (min-width: 25em) {
@@ -298,24 +320,6 @@ a:focus {
 }*/
 
 
-#bodycope {
-    width: 100%;
-    text-align: center;
-    position: relative;
-    top: 40rem;
-    margin-top: 0%;
-    background-color: #333;
-    height: 80rem;
-    color: white;
-    z-index: 10;
-    text-shadow: rgba(6,7,0,1) 2px 4px 3px;
-}
-
-
-
-
-
-
 
 
 @media only screen and (min-width: 25em) {
@@ -338,7 +342,6 @@ a:focus {
     content: "·";
     display: inline-block;
     width: 0.5em;
-
     color: #666;
     text-align: right;
   }
@@ -378,7 +381,6 @@ a:focus {
 }
     
 @media only screen and (min-width: 60em) {
-
   .moon-text {
     padding-left: 1.5rem;
   }
@@ -404,7 +406,13 @@ a:focus {
 
 }    
 
-
+footer {
+    color: white;
+    height: 5rem;
+    width: 100%;
+    
+    
+}
 
 
 
