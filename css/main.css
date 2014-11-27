@@ -151,22 +151,11 @@ body {
     top: 40rem;
     margin-top: 0%;
     background-color: #333;
-    height: 40rem;
+    height: 50rem;
     color: white;
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 2px 4px 3px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -273,7 +262,7 @@ a:focus {
 }
 
 .section-mid {
-  background-color: #fff;
+  background-color: #333;
 }
 
 .section {
@@ -290,7 +279,7 @@ a:focus {
 
 .copyright { 
   text-align: center;
-  color: black;
+  color: white;
 }
 
 /*@media only screen and (min-width: 25em) {
@@ -342,7 +331,7 @@ a:focus {
     content: "·";
     display: inline-block;
     width: 0.5em;
-    color: #666;
+    color: white;
     text-align: right;
   }
 
@@ -409,9 +398,17 @@ a:focus {
 footer {
     color: white;
     height: 5rem;
-    width: 100%;
+    width: 100%;    
+}
+
+table {
+    margin: 0 auto;
     
-    
+}
+
+th,
+td {
+    text-align: left;
 }
 
 
