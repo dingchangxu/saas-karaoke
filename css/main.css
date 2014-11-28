@@ -222,15 +222,17 @@ a:focus {
 }
 
 
-
+.nav {
+        text-align: center;
+}
 .nav li {
-  display: block;
+  display: inline-block;
 }
 
 .nav a,
 .nav a:link,
 .nav a:visited {
-  display: block;
+  display: inline-block;
   color: white;
   text-decoration: none;
   
@@ -294,13 +296,11 @@ td {
     text-align: left;
 }
 
-
-
-
 @media only screen and (min-width: 25em) {
 
   .nav {
     text-align: center;
+    
   }
 
   .nav li {
