@@ -63,6 +63,7 @@ h1 {
     font-size: 2.5rem;
     text-align: center;
     table-layout: auto;
+    width: auto;
     margin-bottom: -.5rem;
     text-shadow: rgba(6,7,0,3)  1px 2px 4px;
 }
@@ -74,7 +75,7 @@ h3 {
 .sing {
     position: fixed;
     text-align: center;
-    padding-left: 10rem;
+    padding-left: 9rem;
     padding-bottom: 1rem;
     margin-top: 40%;
     z-index: 8;
@@ -189,6 +190,10 @@ a:focus {
   display: block;
   width: 100%;
 }
+
+.flex {
+    width: 17rem;
+}
         
 .masthead {
   overflow: hidden;
@@ -246,8 +251,6 @@ a:focus {
   height: auto;
   position: fixed;
   width: 100%;
-
-  
 }
 
 .section-mid {
@@ -321,6 +324,14 @@ td {
   .discovery-title-extra {
     display: inline;
   }
+    
+  .img-flex{
+      padding: 2rem;
+  }
+}
+
+  .box{
+    
 }
 
 @media only screen and (min-width: 38em) {
@@ -345,6 +356,7 @@ td {
   .nav-footer {
     text-align: right;
   }
+    
 
 }
     
