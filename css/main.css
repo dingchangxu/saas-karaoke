@@ -9,11 +9,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("../images/background.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center 8rem;
-    background-attachment: fixed;
+
      
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -149,7 +145,6 @@ body {
     text-shadow: rgba(6,7,0,1) 2px 4px 3px;
 }
 
-
 a:link,
 a:active {
     outline: none;
@@ -211,12 +206,21 @@ a:focus {
 .logo {
     height: 4rem;
     width: auto;
-    padding: .2rem 5%;
+    padding: .2rem 2%;
 }
 
 .logo-wrap {
     text-align: center;
 }
+
+.bg {
+    background-image: url("../images/background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 8rem;
+    background-attachment: fixed;
+}
+
 
 
 .nav li {
@@ -326,11 +330,9 @@ td {
   }
     
   .img-flex{
-      padding: 4rem;
+      padding: 2rem;
   }
-}
 
-  .box{
     
 }
 
