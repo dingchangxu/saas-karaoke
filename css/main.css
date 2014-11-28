@@ -58,8 +58,8 @@ h1 {
     color: #00ADEF;
     font-size: 2.5rem;
     text-align: center;
-    table-layout: auto;
-    width: auto;
+    table-layout: fixed;
+    width: 3rem;
     margin-bottom: -.5rem;
     text-shadow: rgba(6,7,0,3)  1px 2px 4px;
 }
@@ -73,7 +73,7 @@ h3 {
     text-align: center;
     padding-left: 9rem;
     padding-bottom: 10rem;
-    padding-top: 40%;
+    padding-top: 45%;
     z-index: 8;
 }
 
@@ -131,19 +131,7 @@ body {
   padding: 0;
 }
 
-#bodycope {
-    width: auto;
-    padding: 1.5rem;
-    text-align: center;
-    position: relative;
-    top: 40rem;
-    margin-top: 0%;
-    background-color: #333;
-    height: auto;
-    color: white;
-    z-index: 10;
-    text-shadow: rgba(6,7,0,1) 2px 4px 3px;
-}
+
 
 a:link,
 a:active {
@@ -221,7 +209,7 @@ a:focus {
     background-image: url("../images/background.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center 8rem;
+    background-position: center 5rem;
     background-attachment: fixed;
 }
 
@@ -303,8 +291,45 @@ td {
     text-align: left;
 }
 
+#bodycope {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 75vw;
+
+    
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 2px 4px 3px;
+}
+
 @media only screen and (min-width: 25em) {
 
+    h1 {
+        font-size: 1.5rem;
+
+    }
+    
+    h2 {
+        font-size: 1rem;
+        line-height: -1rem;
+       
+        
+    }
+    .sing {
+    font-size: 2em; 
+    position: fixed;
+    text-align: center;
+    padding-left: 9rem;
+    padding-bottom: 10rem;
+    padding-top: 25%;
+    z-index: 8;
+}
+    
   .nav {
     text-align: center;
     
@@ -345,6 +370,34 @@ td {
 
 @media only screen and (min-width: 38em) {
     
+    
+    h1 {
+        font-size: 2.5rem;
+
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        
+       
+        
+    }
+
+ #bodycope {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 68vw;
+
+    
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 2px 4px 3px;
+}
 
   .title,
   .nav {
@@ -370,7 +423,24 @@ td {
 }
     
 @media only screen and (min-width: 60em) {
-  .moon-text {
+   #bodycope {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 66.5vw;
+
+    
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 2px 4px 3px;
+}
+    
+    
+    .moon-text {
     padding-left: 1.5rem;
   }
 
@@ -396,7 +466,8 @@ td {
 }
 
 .linking {
-    color: white;
+    color: #00ADEF;
+    text-decoration: none;
 }
     
 
