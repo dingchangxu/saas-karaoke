@@ -39,7 +39,7 @@ html {
 
 @media only screen and (min-width: 120em) {
 
-  html {
+    html {
     font-size: 130%;
   }
 
@@ -54,18 +54,27 @@ html {
 }
 
 h1 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #00ADEF;
     font-size: 2.5rem;
     text-align: center;
     table-layout: fixed;
     width: 3rem;
     margin-bottom: -.5rem;
-    text-shadow: rgba(6,7,0,3)  1px 2px 4px;
+    /*text-shadow: rgba(6,7,0,3)  1px 1px .5px;*/
+
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    
 }
 
 h3 {
     color: #00ADEF;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.5rem;
 }
 
 .sing {
@@ -75,39 +84,61 @@ h3 {
     padding-bottom: 10rem;
     padding-top: 45%;
     z-index: 8;
+    margin-top: 4.5rem;
 }
 
+.sing2{
+    padding-right: 4rem;
+    margin-left: -5rem;
+    margin-top: -4rem;
+    
+}
+
+
 .s1 {
-    width: auto;
-    line-height: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    width: 13rem;
+    line-height: .75rem;
     margin-bottom: .5rem;
+    font-size: .75rem;
+    padding-right: 3rem;
+    margin-top: 2rem;
+    margin-left: -2.25rem;
+    
 }
 
 .s2 {
-    width: auto;
-    line-height: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    width: 10rem;
+    line-height: .5rem;
+    font-size: .5rem;
+    margin-left: -2.5rem;
+    margin-bottom: .1em;
 }
 
-.button {
+/*  .button {
     text-align: center;
-    margin-top: -.5rem; 
-}
+    
+}*/
 
 button {
-    font-size: 1.5em;
+    width: 8rem;
+    font-size: .25rem;
     font-weight: bold;
-    /*text-transform: uppercase;
-    -webkit-border-radius: 39px;*/
-    background-image: linear-gradient(0deg, black, #00ADEF, black);
+    margin-top: -1rem;
+    background-color: #00ADEF;
     color: white;
-    padding: 0.4em .5em;
+    margin-left: -1rem;
+    padding: 3px 30px;
     cursor: pointer;
     text-align: center;
-    box-shadow: rgba(6,7,0,1) 0 1.5px 0;
-    text-shadow: rgba(6,7,0,1) 2px 4px 3px;
-    -webkit-border-radius: 30px;
-    -webkit-box-shadow: 4px 4px 5px #555;
-    box-shadow: 2px 2px 7px #555;
+    /*box-shadow: rgba(6,7,0,1) 0 1.5px 0;
+    text-shadow: rgba(6,7,0,1) .5px .5px .5px;*/
+    -webkit-border-radius: 5px;
+    /*-webkit-box-shadow: 4px 4px 5px #555;
+    box-shadow: 2px 2px 7px #555;*/
     /*-webkit-transition: 10.3s ease all;
     -ms-transition: 0.3s ease all;
     -o-transition: 0.3s ease all;
@@ -115,27 +146,42 @@ button {
 }
 
 .btn:hover {
-    background-color: transparent;
+    background-color: #05A6D8;
     position: relative;
     top: -1px;
+    text-shadow: rgba(6,7,0,1) .5px .5px .5px;
 }
 
 .btn:active {
     position: relative;
     top: 1px;
     border-bottom-width: 1px;
+    background-color: #05A6D8;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 
+.singon {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.note {
+    line-height: 2rem;
+}
 
 a:link,
 a:active {
     outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 a:focus {
@@ -170,8 +216,8 @@ a:focus {
 
 
 .img-flex {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 
 .flex {
@@ -179,16 +225,16 @@ a:focus {
 }
         
 .masthead {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .title {
-  text-align: center;
-  color: #00ADEF;
+    text-align: center;
+    color: #00ADEF;
 }
 
 .nav {
-  padding: 0;
+    padding: 0;
 }
 
 .logo {
@@ -221,15 +267,15 @@ a:focus {
     width: 23rem;*/
 }
 .nav li {
-  display: inline-block;
+    display: inline-block;
 }
 
 .nav a,
 .nav a:link,
 .nav a:visited {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
   
 }
 
@@ -239,40 +285,43 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-  background-color: #00ADEF;
-  color: #fff;
+    background-color: #00ADEF;
+    color: #fff;
 }
 
 .section-dark {
-  background-color: black;
-  overflow: hidden;
-  background-size: 13rem;
-  background-repeat: no-repeat;
-  background-position:top;
-  height: auto;
-  position: fixed;
-  width: 100%;
+    background-color: black;
+    overflow: hidden;
+    background-size: 13rem;
+    background-repeat: no-repeat;
+    background-position:top;
+    height: auto;
+    position: fixed;
+    width: 100%;
 }
 
 .section-mid {
-  background-color: #333;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 .section {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .intro {
-  text-align: center;
+    text-align: center;
 }
 
 .discovery-title-extra {
-  display: none;
+    display: none;
 }
 
 .copyright { 
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 }
 
 footer {
@@ -292,35 +341,50 @@ td {
 }
 
 #bodycope {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     width: auto;
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 75vw;
-
-    
+    top: 90vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
     color: white;
     z-index: 10;
-    text-shadow: rgba(6,7,0,1) 2px 4px 3px;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
 
-@media only screen and (min-width: 25em) {
 
-    h1 {
-        font-size: 1.5rem;
-
-    }
+@media only screen and (min-width: 10em) {
     
-    h2 {
-        font-size: 1rem;
-        line-height: -1rem;
-       
-        
-    }
-    .sing {
+.s1 {
+    width: 14rem;
+    margin-left: -1.5rem;
+    margin-top: 5rem;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+
+}
+
+.s2 {
+    width: 10rem;
+    line-height: .75rem;
+    margin-bottom: 1rem;
+    margin-left: -1rem;
+    margin-bottom: 1rem;
+}
+    
+
+.buttons {
+    text-align: center;
+    margin-top: -1rem;
+    margin-left: 1rem;
+
+}
+    
+.sing {
     font-size: 2em; 
     position: fixed;
     text-align: center;
@@ -329,151 +393,664 @@ td {
     padding-top: 25%;
     z-index: 8;
 }
+
     
-  .nav {
+#bodycope {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 61vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}
+    
+.img-flex{
+    padding: 2rem;
+}
+
+}
+
+
+
+@media only screen and (min-width: 20em) {
+    
+.s1 {
+    width: 14rem;
+    margin-left: -1.5rem;
+    margin-top: 5rem;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+
+}
+
+.s2 {
+    width: 10rem;
+    line-height: .75rem;
+    margin-bottom: 1rem;
+    margin-left: -1rem;
+    margin-bottom: 1rem;
+}
+    
+
+.buttons {
+    text-align: center;
+    margin-top: -1rem;
+    margin-left: 1rem;
+
+}
+    
+.sing {
+    font-size: 2em; 
+    position: fixed;
+    text-align: center;
+    padding-left: 9rem;
+    padding-bottom: 10rem;
+    padding-top: 25%;
+    z-index: 8;
+}
+
+    
+#bodycope {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 85vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}
+    
+    
+    
+.nav {
     text-align: center;
     
-  }
+}
 
-  .nav li {
+.nav li {
     display: inline-block;
-  }
+}
 
 .nav-footer a,
-  .nav-footer a:link,
-  .nav-footer a:visited {
+.nav-footer a:link,
+.nav-footer a:visited {
     display: inline-block;
-  }
+}
 
-  .nav-footer li:after {
+.nav-footer li:after {
     content: "·";
     display: inline-block;
     width: 0.5em;
     color: white;
     text-align: center;
-  }
+}
 
-  .nav-footer li:last-child::after {
+.nav-footer li:last-child::after {
     content: none;
-  }
+}
 
-  .discovery-title-extra {
+.discovery-title-extra {
     display: inline;
-  }
+}
     
-  .img-flex{
-      padding: 2rem;
-  }
+.img-flex{
+    padding: 2rem;
+}
 
+.password,
+legend,
+.name,
+.email,
+textarea {
+    width: 100%;
+    font-size: 1.125em;
+}
+
+message,
+.field {
+    width: 100%;
+    height: 1.8rem;
+}
+
+textarea {
+    height: 10em;
+}
+
+.button {
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem;
+    border-radius: 6px;
+}
+
+.button button {
+    cursor: pointer;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th,
+td {
+    text-align: left;
+}
     
+}
+
+
+
+
+@media only screen and (min-width: 25em) {
+    
+.s1 {
+    width: 18rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+
+}
+
+.s2 {
+    width: 17rem;
+    line-height: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 4rem;
+    font-size: 1rem;
+}
+    
+
+.buttons {
+    height: 3rem;
+    text-align: center;
+    margin-top: -1rem;
+    margin-left: 10rem;
+    font-size: .5rem;
+    width: 5rem;
+
+}
+
+
+.sing {
+    font-size: 2em; 
+    position: fixed;
+    text-align: center;
+    padding-left: 9rem;
+    padding-bottom: 10rem;
+    padding-top: 25%;
+    z-index: 8;
+}
+
+#bodycope {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 78vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}
+    
+.img-flex{
+    padding: 2rem;
+}
+
 }
 
 @media only screen and (min-width: 38em) {
     
-    
-    h1 {
-        font-size: 2.5rem;
+.s1 {
+    width: 28rem;
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+    padding-bottom: -1rem;
+    padding-top: 1.5rem;
+    margin: 0;
+    margin-top: 4rem;
+   
+}
 
-    }
+.s2 {
+    width: 23rem;
+    line-height: 1.75rem;
+    padding: -1rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: .75rem; 
     
-    h2 {
-        font-size: 1.5rem;
-        
-       
-        
-    }
+}
 
- #bodycope {
+.buttons {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 16rem;
+    margin: -1.5rem;
+    margin-left: 6rem;
+        
+}
+
+    
+    
+    
+    
+    
+.sing {
+    font-size: 2em; 
+    position: fixed;
+    text-align: center;
+    padding-left: 9rem;
+    padding-bottom: 13rem;
+    padding-top: 25%;
+    z-index: 8;
+}
+
+#bodycope {
     width: auto;
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 68vw;
-
-    
+    top: 72vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
     color: white;
     z-index: 10;
-    text-shadow: rgba(6,7,0,1) 2px 4px 3px;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
 
-  .title,
-  .nav {
+.title,
+.nav {
     text-align: center;
     color: white;
 }
     
-    .discovery-text {
+.discovery-text {
     padding-right: 1.5rem;
 
-  }
+}
 
-  .copyright {
+.copyright {
     text-align: left;
     color: white;
-  }
+}
 
-  .nav-footer {
+.nav-footer {
     text-align: right;
-  }
-    
+}
 
+legend,
+.name,
+.email,
+textarea {
+    width: 100%;
+    font-size: 1.125em;
+}
+
+message,
+.field {
+    width: 100%;
+    height: 1.8rem;
+}
+textarea {
+    height: 10em;
+}
+
+.button {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+    border-radius: 6px;
+    width: 40rem;
+}
+
+.button button {
+    cursor: pointer;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th,
+td {
+    text-align: left;
 }
     
-@media only screen and (min-width: 60em) {
-   #bodycope {
+.img-flex{
+    padding: 2rem;
+}
+    
+}
+
+@media only screen and (min-width: 45em) {
+.s1 {
+    width: 30rem;
+    line-height: 3.5rem;
+    font-size: 3rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-top: 6rem;
+   
+}
+
+.s2 {
+    width: 25rem;
+    line-height: 2rem;
+    padding: 0rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    
+    
+}
+
+.buttons {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 8rem;
+    margin-top: -2.5rem;
+}
+
+
+#bodycope {
     width: auto;
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 66.5vw;
-
-    
+    top: 70vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
     color: white;
     z-index: 10;
-    text-shadow: rgba(6,7,0,1) 2px 4px 3px;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
     
-    
-    .moon-text {
-    padding-left: 1.5rem;
-  }
-
-  .stats {
-    overflow: hidden;
-  }
-
-  .stats > dt {
-    clear: left;
-    float: left;
-    margin-right: 0.75rem;
-    width: 11em;
-  }
-
-  .stats > dd {
-    float: left;
-  }
-
-  .discovery-text {
-    padding-left: 1.5rem;
-  }
+.img-flex{
+    padding: 2rem;
+}
 
 }
 
+    
+@media only screen and (min-width: 60em) {
+.s1 {
+    width: 34rem;
+    line-height: 4rem;
+    font-size: 4rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;    
+}
+
+.s2 {
+    width: 34rem;
+    line-height: 2.5rem;
+    padding: 0rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    
+}
+    
+    
+.buttons {
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 13rem;
+}
+    
+    
+.sing {
+    font-size: 2em; 
+    position: fixed;
+    text-align: center;
+    padding-left: 9rem;
+    padding-bottom: 18rem;
+    padding-top: 25%;
+    z-index: 8;
+}
+  
+    
+#bodycope {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 69vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}
+    
 .linking {
     color: #00ADEF;
     text-decoration: none;
 }
     
+legend,
+.name,
+.email,
+textarea {
+    width: 100%;
+    font-size: 1.125em;
+}
+
+message,
+.field {
+    width: 100%;
+    height: 1.8rem;
+}
+    
+textarea {
+    height: 10em;
+}
+
+.button {
+    text-align: center;
+    border-radius: 6px;
+}
+
+.button button {
+    cursor: pointer;
+}
+
+ table {
+    margin: 0 auto;
+}
+
+th,
+td {
+    text-align: left;
+}
+
+.img-flex{
+    padding: 2rem;
+}
+
+}
 
 
+    
+@media only screen and (min-width: 70em) {
+.s1 {
+    width: 43rem;
+    line-height: 5rem;
+    font-size: 5rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: rem;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+}
 
+.s2 {
+    width: 42rem;
+    line-height: 3rem;
+    padding: 0rem;
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+} 
+.buttons {
+    width: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 18rem;
+}
 
+.sing {
+    font-size: 2em; 
+    position: fixed;
+    text-align: center;
+    padding-left: 9rem;
+    padding-bottom: 18rem;
+    padding-top: 25%;
+    z-index: 8;
+}  
+       
+#bodycope {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 67vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+} 
+    
+.img-flex{
+    padding: 2rem;
+}
+    
+}   
+    
+    
+@media only screen and (min-width: 80em) { 
+.s1 {
+    width: 44rem;
+    line-height: 5rem;
+    font-size: 5rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: 6rem;
+    margin-top: 7.5rem;
+    margin-bottom: 1rem; 
+}
 
+.s2 {
+    width: 44rem;
+    line-height: 3rem;
+    padding: 0rem;
+    font-size: 3rem;
+    margin-left: 6rem;
+    margin-bottom: 3rem;    
+}
+      
+.buttons {
+    width: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 26rem;
+}
+    
+    
+.sing {
+    font-size: 2em; 
+    position: fixed;
+    text-align: center;
+    padding-left: 9rem;
+    padding-bottom: 18rem;
+    padding-top: 25%;
+    z-index: 8;
+}
+    
+    
+#bodycope {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 66.5vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}
+    
+
+.linking {
+    color: #00ADEF;
+    text-decoration: none;
+}
+      
+legend,
+.name,
+.email,
+textarea {
+    width: 100%;
+    font-size: 1.125em;
+}
+
+message,
+.field {
+    width: 100%;
+    height: 1.8rem;
+}
+textarea {
+    height: 10em;
+}
+
+.button {
+    text-align: center;
+    border-radius: 6px;
+}
+
+.button button {
+    cursor: pointer;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th,
+td {
+    text-align: left;
+}
+    
+.img-flex{
+    padding: 2rem;
+}
+
+}
 
 
