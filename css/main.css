@@ -77,6 +77,10 @@ h3 {
     line-height: 2.5rem;
 }
 
+.p {
+    line-height: 2rem;
+}
+
 .sing {
     position: fixed;
     text-align: center;
@@ -220,6 +224,11 @@ a:focus {
     width: 100%;
 }
 
+.img-flexp {
+    display: block;
+    width: 100%;
+}
+
 .flex {
     width: 17rem;
 }
@@ -359,12 +368,20 @@ td {
 
 @media only screen and (min-width: 10em) {
     
+    
+.body1 {
+    line-height: 2rem;
+    padding: 0rem;;
+    font-size: 1rem;
+}
+    
 .s1 {
     width: 14rem;
-    margin-left: -1.5rem;
+    margin-left: -3rem;
     margin-top: 5rem;
-    font-size: 1.25rem;
-    line-height: 1.25rem;
+    margin-bottom: 0rem;
+    font-size: 1rem;
+    line-height: 1rem;
 
 }
 
@@ -372,16 +389,55 @@ td {
     width: 10rem;
     line-height: .75rem;
     margin-bottom: 1rem;
-    margin-left: -1rem;
-    margin-bottom: 1rem;
+    margin-left: -2.5rem;
+}
+.kin {
+    font-size: 1.75rem;
+    margin: -.25rem;
 }
     
+.pr {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: -.25rem;
+}
+    
+.pi {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin: 0;
+    padding: 0;
+}
+    
+.op {
+    line-height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: -.25rem;
+}
+    
+.note {
+    font-size: 1rem;
+    line-height: 1rem;
+   
+}
+
+    
+.btnp {
+    margin-left: 1rem;
+}
+    
+.singon {
+    padding: 0rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
 
 .buttons {
     text-align: center;
     margin-top: -1rem;
-    margin-left: 1rem;
-
+    margin-left: -.5rem;
+    font-size: .75rem;
 }
     
 .sing {
@@ -400,7 +456,7 @@ td {
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 61vw;
+    top: 95vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
@@ -409,8 +465,17 @@ td {
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
     
-.img-flex{
-    padding: 2rem;
+.img-flex {
+    padding: 0rem;
+    width: 10rem;
+    margin-left: -2.5rem;
+}
+    
+    
+.img-flexp {
+    padding: 0rem;
+    width: 10rem;
+    margin-left: 6%;
 }
 
 }
@@ -436,6 +501,22 @@ td {
     margin-bottom: 1rem;
 }
     
+.op {
+    line-height: 2.5rem;
+
+}
+    
+.note {
+    font-size: 1.25rem;
+    line-height: 1rem;
+
+}
+    
+.singon {
+    padding: 0;
+    font-size: 1.5rem;
+}
+    
 
 .buttons {
     text-align: center;
@@ -453,6 +534,15 @@ td {
     padding-top: 25%;
     z-index: 8;
 }
+    
+.btni {
+    font-size: .75rem;
+    width: 9rem;
+    height: 1.5rem;
+    margin-top: .25rem;
+    border-radius: 5px;
+    margin-left: -1.5rem;
+}  
 
     
 #bodycope {
@@ -460,7 +550,7 @@ td {
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 85vw;
+    top: 82vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
@@ -502,10 +592,21 @@ td {
     display: inline;
 }
     
-.img-flex{
-    padding: 2rem;
+.img-flex {
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: -1rem;
+    width: 14rem;
 }
 
+.img-flexp {
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: 16%;
+    width: 14rem;
+}
+    
+    
 .password,
 legend,
 .name,
@@ -545,6 +646,12 @@ td {
     text-align: left;
 }
     
+.btn {
+    width: 14rem;
+    font-size: 1rem;
+    margin-left: 1rem; 
+}
+    
 }
 
 
@@ -555,7 +662,7 @@ td {
 .s1 {
     width: 18rem;
     margin-left: 5rem;
-    margin-top: 5rem;
+    margin-top: 6rem;
     font-size: 1.5rem;
     line-height: 1.75rem;
 
@@ -569,6 +676,21 @@ td {
     font-size: 1rem;
 }
     
+.op {
+    line-height: 2.5rem;
+}
+    
+.note {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 0rem;
+}
+    
+.singon {
+    padding: 0;
+    font-size: 1.5rem;
+}
+        
 
 .buttons {
     height: 3rem;
@@ -590,13 +712,22 @@ td {
     padding-top: 25%;
     z-index: 8;
 }
+    
+.btni {
+    font-size: 1rem;
+    width: 11rem;
+    height: 2rem;
+    margin-top: -.25rem;
+    border-radius: 10px;
+    margin-left: -2.5rem;
+}  
 
 #bodycope {
     width: auto;
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 78vw;
+    top: 82vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
@@ -605,8 +736,24 @@ td {
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
     
-.img-flex{
-    padding: 2rem;
+.img-flex {
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: 16%;
+    width: 15rem;  
+}
+    
+.img-flexp {
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: 25%;
+    width: 15rem;  
+}
+    
+.btn {
+    width: 13rem;
+    font-size: 2rem;
+    margin-left: 1rem; 
 }
 
 }
@@ -644,8 +791,14 @@ td {
         
 }
 
-    
-    
+.singon {
+    padding: 0;
+    font-size: 2rem;
+}
+        
+.bodyi {
+    margin: 1.5rem;
+} 
     
     
     
@@ -658,13 +811,23 @@ td {
     padding-top: 25%;
     z-index: 8;
 }
+    
+    
+.btni {
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 3rem;
+    margin-top: .5rem;
+    border-radius: 16px;
+    margin-left: -2.5rem;
+}      
 
 #bodycope {
     width: auto;
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 72vw;
+    top: 75vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
@@ -731,8 +894,25 @@ td {
     text-align: left;
 }
     
-.img-flex{
-    padding: 2rem;
+.img-flex {
+    padding: 0rem;
+    margin-left: 2rem;
+    width: 11rem;
+}
+    
+.img-flexp {
+    padding: 0rem;
+    margin-left: 3rem;
+    width: 11rem;
+}
+
+.note {
+    font-size: 1rem;
+}
+.btn {
+    width: 10rem;
+    font-size: 1.75rem;
+    margin-left: 1rem; 
 }
     
 }
@@ -757,9 +937,16 @@ td {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     margin-left: 3rem;
-    
-    
 }
+    
+.btni {
+    font-size: 2rem;
+    width: 20rem;
+    height: 4rem;
+    margin-top: 1rem;
+    border-radius: 16px;
+    margin-left: -2.5rem;
+}   
 
 .buttons {
     text-align: center;
@@ -774,7 +961,7 @@ td {
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 70vw;
+    top: 78vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
@@ -783,10 +970,26 @@ td {
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
     
-.img-flex{
-    padding: 2rem;
+.img-flex {
+    padding: 0rem;
+    margin-left: 3rem;
+    width: 13rem;
 }
-
+   
+.img-flexp {
+    padding: 0rem;
+    margin-left: 2%;
+    width: 17rem;
+}
+    
+.note {
+    font-size: 1.5rem;
+}    
+.btn {
+    width: 10rem;
+    font-size: 1.75rem;
+    margin-left: 1rem; 
+}
 }
 
     
@@ -830,6 +1033,14 @@ td {
     z-index: 8;
 }
   
+.btni {
+    font-size: 2rem;
+    width: 24rem;
+    height: 4rem;
+    margin-top: 1rem;
+    border-radius: 16px;
+    margin-left: -6rem;
+}  
     
 #bodycope {
     width: auto;
@@ -843,6 +1054,14 @@ td {
     color: white;
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}
+
+.singon {
+    font-size: 3rem;
+}
+    
+.p {
+    font-size: 1.5rem;
 }
     
 .linking {
@@ -886,10 +1105,32 @@ td {
     text-align: left;
 }
 
-.img-flex{
-    padding: 2rem;
+.img-flex {
+    padding: 0rem;
+    margin: 0;
+    width: 10rem;
+    margin-left: -1rem;
+    padding-top: 3rem;
+}
+    
+.img-flexp {
+    width: 0rem;
+    padding: 0;
+    margin: -2rem;
+    margin-top: 8rem;
+    width: 11rem;
 }
 
+    
+.btn {
+    width: 9rem;
+    font-size: 1.75rem;
+    margin-left: -3.5rem;
+    
+}
+.bodyi {
+    margin: 0rem;
+}
 }
 
 
@@ -921,6 +1162,7 @@ td {
     margin-left: 18rem;
 }
 
+    
 .sing {
     font-size: 2em; 
     position: fixed;
@@ -929,7 +1171,17 @@ td {
     padding-bottom: 18rem;
     padding-top: 25%;
     z-index: 8;
+} 
+    
+    
+.btni {
+    font-size: 2.5rem;
+    width: 24rem;
+    height: 6rem;
+    margin-top: 1rem;
+    border-radius: 16px;
 }  
+    
        
 #bodycope {
     width: auto;
@@ -945,9 +1197,35 @@ td {
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 } 
     
-.img-flex{
-    padding: 2rem;
+.img-flex {
+    width: 10rem;
+    padding: 0;
 }
+    
+.img-flexp {
+    width: 0rem;
+    padding: 0;
+    margin: 0;
+    margin-top: 8rem;
+    width: 13rem;
+}
+
+.singon {
+}
+    
+.p {
+
+}
+
+.note {
+    
+}
+.btn {
+    width: 11rem;
+    font-size: 2rem;
+    margin-left: -5rem;   
+}
+     
     
 }   
     
@@ -973,13 +1251,6 @@ td {
     margin-bottom: 3rem;    
 }
       
-.buttons {
-    width: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    margin-left: 26rem;
-}
-    
     
 .sing {
     font-size: 2em; 
@@ -991,6 +1262,13 @@ td {
     z-index: 8;
 }
     
+.btni {
+    font-size: 2.5rem;
+    width: 24rem;
+    height: 6rem;
+    margin-top: 1rem;
+    border-radius: 16px;
+}  
     
 #bodycope {
     width: auto;
@@ -1015,6 +1293,7 @@ td {
 legend,
 .name,
 .email,
+.fav,
 textarea {
     width: 100%;
     font-size: 1.125em;
@@ -1047,9 +1326,30 @@ td {
     text-align: left;
 }
     
-.img-flex{
-    padding: 2rem;
+.img-flex {
+    width: 12rem;
+    padding: 0;
 }
+    
+.img-flexp {
+    width: 14rem;
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+    width: 15rem;
+}
+ 
+    
+.note {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}    
+.btn {
+    width: 11rem;
+    font-size: 2rem;
+    margin-left: -3rem; 
+}
+
 
 }
 
