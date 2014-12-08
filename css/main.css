@@ -101,13 +101,13 @@ h3 {
 
 .s1 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     width: 13rem;
     line-height: .75rem;
     margin-bottom: .5rem;
     font-size: .75rem;
     padding-right: 3rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: -2.25rem;
     
 }
@@ -121,6 +121,30 @@ h3 {
     margin-left: -2.5rem;
     margin-bottom: .1em;
 }
+
+
+.s1p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    width: 4rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    color: white;
+    /*width: 13rem;
+    line-height: .75rem;
+    margin-bottom: .5rem;
+    font-size: .75rem;
+    padding-right: 3rem;
+    margin-top: 10rem;
+    margin-left: -2.25rem;*/
+    
+    
+}
+
+
+
+
+
 
 /*  .button {
     text-align: center;
@@ -265,9 +289,20 @@ a:focus {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center 5rem;
-    background-attachment: fixed;
+    background-attachment: fixed;   
 }
 
+
+.bgp {
+    /*background-image: url("../images/srz.gif");*/
+    background-image: url("../images/dreams.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 4.9rem;
+    background-attachment: fixed;
+    background-color: black;
+     
+}
 
 .nav {
     text-align: center;
@@ -299,6 +334,7 @@ a:focus {
 }
 
 .section-dark {
+    
     background-color: black;
     overflow: hidden;
     background-size: 13rem;
@@ -311,6 +347,19 @@ a:focus {
 
 .section-mid {
     background-color: #333;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.section-mids {
+    background-image: url("../images/imgs.jpg");
+    background-color: black;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 14.9rem;
+    /*background-attachment: fixed;*/
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -359,11 +408,49 @@ td {
     top: 90vw;
     margin-top: 0%;
     background-color: #333;
+    background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
     height: auto;
     color: white;
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
+
+#bodycopep {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 94vw;
+    margin-top: 0%;
+    background-color: #333;
+    background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}
+
+.notep {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    padding: .5rem;
+} 
+
 
 
 @media only screen and (min-width: 10em) {
@@ -391,6 +478,24 @@ td {
     margin-bottom: 1rem;
     margin-left: -2.5rem;
 }
+    
+    
+    
+.s1p {
+    width: 14rem;
+    margin-left: -5rem;
+    margin-top: 5rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+    
+    
+    
+    
+    
+    
+    
 .kin {
     font-size: 1.75rem;
     margin: -.25rem;
@@ -465,6 +570,24 @@ td {
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
     
+    
+    
+    
+#bodycopep {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 93vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}    
+    
+    
 .img-flex {
     padding: 0rem;
     width: 10rem;
@@ -477,6 +600,8 @@ td {
     width: 10rem;
     margin-left: 6%;
 }
+    
+
 
 }
 
@@ -490,8 +615,18 @@ td {
     margin-top: 5rem;
     font-size: 1.25rem;
     line-height: 1.25rem;
-
 }
+    
+    
+.s1p {
+    width: 14rem;
+    margin-left: -4rem;
+    margin-top: 5rem;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+
+}    
+    
 
 .s2 {
     width: 10rem;
@@ -559,6 +694,20 @@ td {
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
     
+    
+#bodycopep {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 81vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}    
     
     
 .nav {
@@ -652,6 +801,13 @@ td {
     margin-left: 1rem; 
 }
     
+.notep {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    padding: .5rem;
+} 
+    
 }
 
 
@@ -665,7 +821,14 @@ td {
     margin-top: 6rem;
     font-size: 1.5rem;
     line-height: 1.75rem;
-
+}
+    
+.s1p {
+    width: 18rem;
+    margin-left: 30%;
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
 }
 
 .s2 {
@@ -736,6 +899,33 @@ td {
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
     
+    
+.s1p {
+    width: 25rem;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: -3rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem; 
+}    
+    
+#bodycopep {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 68vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}    
+
+    
 .img-flex {
     padding: 0rem;
     margin: 0rem;
@@ -749,6 +939,30 @@ td {
     margin-left: 25%;
     width: 15rem;  
 }
+    
+.singons {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 2rem;
+    width: auto;
+} 
+    
+.ps {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: auto;
+}
+    
+    
+.notep {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    padding: .5rem;
+}     
     
 .btn {
     width: 13rem;
@@ -835,6 +1049,33 @@ td {
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
+    
+    
+.s1p {
+    width: 40rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: -12rem;
+    margin-top: 8rem;
+    margin-bottom: 1rem; 
+}    
+    
+#bodycopep {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 63vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}        
+    
 
 .title,
 .nav {
@@ -905,10 +1146,32 @@ td {
     margin-left: 3rem;
     width: 11rem;
 }
+    
+.singons {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+} 
+    
+.ps {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: auto;
+}
 
 .note {
     font-size: 1rem;
 }
+    
+
+.notep {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    padding: .5rem;
+}     
+
 .btn {
     width: 10rem;
     font-size: 1.75rem;
@@ -969,6 +1232,36 @@ td {
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
+   
+    
+.s1p {
+    width: 40rem;
+    line-height: 5rem;
+    font-size: 2.5rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: -10rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem; 
+}    
+    
+    
+    
+    
+#bodycopep {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 63vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}       
+    
     
 .img-flex {
     padding: 0rem;
@@ -981,10 +1274,34 @@ td {
     margin-left: 2%;
     width: 17rem;
 }
+
+.singons {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 2rem;
+} 
+    
+    
+.ps {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: auto;
+}
     
 .note {
     font-size: 1.5rem;
 }    
+    
+    
+.notep {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    padding: .5rem;
+}     
+    
 .btn {
     width: 10rem;
     font-size: 1.75rem;
@@ -1056,6 +1373,38 @@ td {
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
 
+    
+    
+.s1p {
+    width: 40rem;
+    line-height: 5rem;
+    font-size: 3rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: -7rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem; 
+}    
+    
+    
+    
+    
+#bodycopep {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 65vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}        
+       
+    
+    
 .singon {
     font-size: 3rem;
 }
@@ -1121,6 +1470,19 @@ td {
     width: 11rem;
 }
 
+.singons {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 1rem;
+} 
+    
+.notep {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    padding: .5rem;
+} 
     
 .btn {
     width: 9rem;
@@ -1181,6 +1543,37 @@ td {
     margin-top: 1rem;
     border-radius: 16px;
 }  
+
+    
+    
+.s1p {
+    width: 40rem;
+    line-height: 5rem;
+    font-size: 3rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: -5rem;
+    margin-top: 12rem;
+    margin-bottom: 1rem; 
+}    
+    
+    
+    
+    
+#bodycopep {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 60vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}        
+    
     
        
 #bodycope {
@@ -1210,16 +1603,24 @@ td {
     width: 13rem;
 }
 
-.singon {
-}
+.singons {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 1rem;
+}  
     
 .p {
 
 }
 
-.note {
+.notep {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    padding: .25rem;
+} 
     
-}
 .btn {
     width: 11rem;
     font-size: 2rem;
@@ -1252,6 +1653,37 @@ td {
 }
       
     
+    
+    
+    
+.s1p {
+    width: 40rem;
+    line-height: 5rem;
+    font-size: 3rem;
+    padding: 0rem;
+    margin: 0rem;
+    margin-left: -5rem;
+    margin-top: 12rem;
+    margin-bottom: 1rem; 
+}    
+    
+    
+    
+    
+#bodycopep {
+    width: auto;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 65vw;
+    margin-top: 0%;
+    background-color: #333;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
+}    
+    
 .sing {
     font-size: 2em; 
     position: fixed;
@@ -1270,7 +1702,7 @@ td {
     border-radius: 16px;
 }  
     
-#bodycope {
+/*#bodycope {
     width: auto;
     padding: 1.5rem;
     text-align: center;
@@ -1282,7 +1714,9 @@ td {
     color: white;
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
-}
+}*/
+    
+
     
 
 .linking {
@@ -1293,20 +1727,22 @@ td {
 legend,
 .name,
 .email,
-.fav,
+.favi,
+.favb,
 textarea {
     width: 100%;
     font-size: 1.125em;
+    
 }
 
-message,
+/**message,
 .field {
     width: 100%;
     height: 1.8rem;
 }
 textarea {
     height: 10em;
-}
+}**/
 
 .button {
     text-align: center;
@@ -1315,6 +1751,8 @@ textarea {
 
 .button button {
     cursor: pointer;
+    font-size: 1.5rem;
+    width: 13rem;
 }
 
 table {
@@ -1338,12 +1776,29 @@ td {
     margin-top: 1rem;
     width: 15rem;
 }
+    
+    
+.singons {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
  
     
 .note {
     font-size: 1rem;
     line-height: 1.5rem;
-}    
+}  
+    
+.notep {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    padding: .25rem;
+} 
+    
+    
 .btn {
     width: 11rem;
     font-size: 2rem;
