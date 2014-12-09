@@ -48,9 +48,11 @@ html {
 
 #header {
     position: fixed;
-    /**height: 70px;**/
+    height: 70px;
     text-align: center;
+    margin-top: -1rem;
     z-index: 11;
+    opacity: .96;
 }
 
 h1 {
@@ -77,6 +79,21 @@ h3 {
     line-height: 2.5rem;
 }
 
+.what {
+    line-height: 1.5rem;
+    font-weight: 400;
+    opacity: .9;
+    font-size: 1rem;
+}
+
+.notepq {
+    line-height: .75rem;
+    font-weight: 400;
+    opacity: .8;
+    font-size: .75rem;
+
+}
+
 .p {
     line-height: 2rem;
 }
@@ -88,7 +105,7 @@ h3 {
     padding-bottom: 10rem;
     padding-top: 45%;
     z-index: 8;
-    margin-top: 4.5rem;
+    margin-top: 3.15rem;
 }
 
 .sing2{
@@ -141,11 +158,6 @@ h3 {
     
 }
 
-
-
-
-
-
 /*  .button {
     text-align: center;
     
@@ -173,19 +185,42 @@ button {
     transition: 0.3s ease all;*/
 }
 
-.btn:hover {
+.btni:hover {
     background-color: #05A6D8;
     position: relative;
     top: -1px;
     text-shadow: rgba(6,7,0,1) .5px .5px .5px;
 }
 
-.btn:active {
+.btni:active {
     position: relative;
     top: 1px;
     border-bottom-width: 1px;
     background-color: #05A6D8;
 }
+
+
+
+
+
+.btnpi:hover {
+    background-color: #05A6D8;
+    position: relative;
+    top: -1px;
+    text-shadow: rgba(6,7,0,1) .5px .5px .5px;
+}
+
+.btnpi:active {
+    position: relative;
+    top: 1px;
+    border-bottom-width: 1px;
+    background-color: #05A6D8;
+}
+
+
+
+
+
 
 body {
     margin: 0;
@@ -200,6 +235,17 @@ body {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+
+
+.singoni {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    opacity: .6;
+}
+
 
 .note {
     line-height: 2rem;
@@ -246,6 +292,7 @@ a:focus {
 .img-flex {
     display: block;
     width: 100%;
+    opacity: .8;
 }
 
 .img-flexp {
@@ -271,7 +318,7 @@ a:focus {
 }
 
 .logo {
-    height: 4rem;
+    height: 2.5rem;
     width: auto;
     padding-top: .5em;
     margin-right: 45%;
@@ -280,9 +327,9 @@ a:focus {
 
 
 
-.logo-wrap {
+/*.logo-wrap {
     text-align: center;
-}
+}*/
 
 .bg {
     background-image: url("../images/background.jpg");
@@ -298,10 +345,9 @@ a:focus {
     background-image: url("../images/dreams.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center 4.9rem;
-    background-attachment: fixed;
+    background-position: center 3.4rem;
+    background-attachment: fixed; 
     background-color: black;
-     
 }
 
 .nav {
@@ -365,22 +411,35 @@ a:focus {
     font-weight: 400;
 }
 
-.section {
+/*.section {
     background-color: #fff;
-}
+}*/
 
 .intro {
     text-align: center;
 }
 
-.discovery-title-extra {
+/*.discovery-title-extra {
     display: none;
-}
+}*/
 
 .copyright { 
     text-align: center;
     color: white;
 }
+
+.copyrightp { 
+    text-align: center;
+    color: white;
+}
+
+.copyrights { 
+    text-align: center;
+    color: white;
+}
+
+
+
 
 footer {
     color: white;
@@ -388,7 +447,7 @@ footer {
     width: 100%;    
 }
 
-table {
+/*table {
     margin: 0 auto;
     
 }
@@ -396,7 +455,7 @@ table {
 th,
 td {
     text-align: left;
-}
+}*/
 
 #bodycope {
     font-family: 'Open Sans', sans-serif;
@@ -445,11 +504,16 @@ background-size:16px 16px;
 }
 
 .notep {
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: .75rem;
+    line-height: 1rem;
     font-weight: 400;
     padding: .5rem;
 } 
+
+.use {
+    text-align: center;   
+}
+
 
 
 
@@ -484,17 +548,10 @@ background-size:16px 16px;
 .s1p {
     width: 14rem;
     margin-left: -5rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
     font-size: 1rem;
     line-height: 1rem;
 }
-
-    
-    
-    
-    
-    
-    
     
 .kin {
     font-size: 1.75rem;
@@ -526,8 +583,7 @@ background-size:16px 16px;
     line-height: 1rem;
    
 }
-
-    
+  
 .btnp {
     margin-left: 1rem;
 }
@@ -537,6 +593,15 @@ background-size:16px 16px;
     font-size: 1.5rem;
     margin-top: 1rem;
 }
+    
+
+.singonp {
+    padding: 0rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    opacity: .8;
+}    
+    
 
 .buttons {
     text-align: center;
@@ -555,6 +620,14 @@ background-size:16px 16px;
     z-index: 8;
 }
 
+.nav {
+    text-align: center;   
+}
+
+.nav li {
+    display: inline-block;
+}  
+    
     
 #bodycope {
     width: auto;
@@ -569,16 +642,13 @@ background-size:16px 16px;
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
-    
-    
-    
-    
+     
 #bodycopep {
     width: auto;
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 93vw;
+    top: 73vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
@@ -593,19 +663,13 @@ background-size:16px 16px;
     width: 10rem;
     margin-left: -2.5rem;
 }
-    
-    
+      
 .img-flexp {
     padding: 0rem;
     width: 10rem;
     margin-left: 6%;
 }
-    
-
-
 }
-
-
 
 @media only screen and (min-width: 20em) {
     
@@ -617,17 +681,14 @@ background-size:16px 16px;
     line-height: 1.25rem;
 }
     
-    
 .s1p {
     width: 14rem;
-    margin-left: -4rem;
-    margin-top: 5rem;
+    margin-left: -3rem;
+    margin-top: 3.5rem;
     font-size: 1.25rem;
     line-height: 1.25rem;
-
 }    
     
-
 .s2 {
     width: 10rem;
     line-height: .75rem;
@@ -638,13 +699,11 @@ background-size:16px 16px;
     
 .op {
     line-height: 2.5rem;
-
 }
     
 .note {
     font-size: 1.25rem;
     line-height: 1rem;
-
 }
     
 .singon {
@@ -652,12 +711,10 @@ background-size:16px 16px;
     font-size: 1.5rem;
 }
     
-
 .buttons {
     text-align: center;
     margin-top: -1rem;
     margin-left: 1rem;
-
 }
     
 .sing {
@@ -678,7 +735,6 @@ background-size:16px 16px;
     border-radius: 5px;
     margin-left: -1.5rem;
 }  
-
     
 #bodycope {
     width: auto;
@@ -693,26 +749,23 @@ background-size:16px 16px;
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
-    
-    
+        
 #bodycopep {
     width: auto;
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 81vw;
+    top: 68vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
     color: white;
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
-}    
-    
+}       
     
 .nav {
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .nav li {
@@ -825,7 +878,7 @@ td {
     
 .s1p {
     width: 18rem;
-    margin-left: 30%;
+    margin-left: 40%;
     margin-top: 6rem;
     font-size: 1.5rem;
     line-height: 1.75rem;
@@ -916,7 +969,7 @@ td {
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 68vw;
+    top: 65vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
@@ -1075,7 +1128,16 @@ td {
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }        
+
     
+    
+.pi {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 3rem;
+    padding: 1rem;
+}     
+
 
 .title,
 .nav {
@@ -1088,14 +1150,14 @@ td {
 
 }
 
-.copyright {
+/*.copyright {
     text-align: left;
     color: white;
 }
 
 .nav-footer {
     text-align: right;
-}
+}*/
 
 legend,
 .name,
@@ -1253,14 +1315,23 @@ td {
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 63vw;
+    top: 60vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
     color: white;
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
-}       
+}  
+    
+    
+    
+.pi {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 3rem;
+    padding: 1rem;
+} 
     
     
 .img-flex {
@@ -1394,14 +1465,23 @@ td {
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 65vw;
+    top: 62vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
     color: white;
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
-}        
+}  
+    
+    
+.pi {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    margin: 3rem;
+    padding: 1rem;
+} 
+    
        
     
     
@@ -1476,6 +1556,11 @@ td {
     font-size: 2rem;
     margin-top: 1rem;
 } 
+    
+ .bgp {
+    margin-top: 2.9rem;
+}       
+    
     
 .notep {
     font-size: 1rem;
@@ -1590,6 +1675,19 @@ td {
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 } 
     
+    
+    
+    
+    
+.pi {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    margin: 3rem;
+    padding: 1rem;
+} 
+    
+    
+    
 .img-flex {
     width: 10rem;
     padding: 0;
@@ -1609,6 +1707,11 @@ td {
     font-size: 2rem;
     margin-top: 1rem;
 }  
+  
+ .bgp {
+    margin-top: 2.9rem;
+}   
+    
     
 .p {
 
@@ -1675,7 +1778,7 @@ td {
     padding: 1.5rem;
     text-align: center;
     position: relative;
-    top: 65vw;
+    top: 60vw;
     margin-top: 0%;
     background-color: #333;
     height: auto;
@@ -1701,6 +1804,19 @@ td {
     margin-top: 1rem;
     border-radius: 16px;
 }  
+    
+    
+.pi {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    margin: 3rem;
+    padding: 1rem;
+}    
+    
+    
+.bgp {
+    margin-top: 2.5rem;
+}
     
 /*#bodycope {
     width: auto;
