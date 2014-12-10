@@ -165,18 +165,18 @@ h3 {
 
 button {
     width: 8rem;
-    font-size: .25rem;
+    font-size: 1.25rem;
     font-weight: bold;
-    margin-top: -1rem;
+    margin-top: 1rem;
     background-color: #00ADEF;
     color: white;
     margin-left: -1rem;
     padding: 3px 30px;
     cursor: pointer;
     text-align: center;
+    -webkit-border-radius: 5px;
     /*box-shadow: rgba(6,7,0,1) 0 1.5px 0;
     text-shadow: rgba(6,7,0,1) .5px .5px .5px;*/
-    -webkit-border-radius: 5px;
     /*-webkit-box-shadow: 4px 4px 5px #555;
     box-shadow: 2px 2px 7px #555;*/
     /*-webkit-transition: 10.3s ease all;
@@ -200,9 +200,6 @@ button {
 }
 
 
-
-
-
 .btnpi:hover {
     background-color: #05A6D8;
     position: relative;
@@ -217,6 +214,21 @@ button {
     background-color: #05A6D8;
 }
 
+.kindlink {
+    text-align: center;
+}
+
+.kindlink:hover {
+    position: relative;
+    top: -2px;
+    text-shadow: rgba(6,7,0,1) .5px .5px .5px;
+}
+
+.kindlink:active {
+    position: relative;
+    top: 1px;
+}
+
 
 
 
@@ -227,7 +239,6 @@ body {
     padding: 0;
 }
 
-
 .singon {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
@@ -236,16 +247,14 @@ body {
     margin-bottom: 3rem;
 }
 
-
 .singoni {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     opacity: .6;
 }
-
 
 .note {
     line-height: 2rem;
@@ -325,8 +334,6 @@ a:focus {
     margin-bottom: -2.5rem;
 }
 
-
-
 /*.logo-wrap {
     text-align: center;
 }*/
@@ -338,7 +345,6 @@ a:focus {
     background-position: center 5rem;
     background-attachment: fixed;   
 }
-
 
 .bgp {
     /*background-image: url("../images/srz.gif");*/
@@ -365,8 +371,7 @@ a:focus {
 .nav a:visited {
     display: inline-block;
     color: white;
-    text-decoration: none;
-  
+    text-decoration: none;  
 }
 
 .nav a:hover,
@@ -438,9 +443,6 @@ a:focus {
     color: white;
 }
 
-
-
-
 footer {
     color: white;
     height: 5rem;
@@ -510,15 +512,17 @@ background-size:16px 16px;
     padding: .5rem;
 } 
 
+
+.name {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 .use {
     text-align: center;   
 }
 
-
-
-
-@media only screen and (min-width: 10em) {
-    
+@media only screen and (min-width: 10em) {  
     
 .body1 {
     line-height: 2rem;
@@ -533,7 +537,6 @@ background-size:16px 16px;
     margin-bottom: 0rem;
     font-size: 1rem;
     line-height: 1rem;
-
 }
 
 .s2 {
@@ -542,9 +545,7 @@ background-size:16px 16px;
     margin-bottom: 1rem;
     margin-left: -2.5rem;
 }
-    
-    
-    
+      
 .s1p {
     width: 14rem;
     margin-left: -5rem;
@@ -581,7 +582,6 @@ background-size:16px 16px;
 .note {
     font-size: 1rem;
     line-height: 1rem;
-   
 }
   
 .btnp {
@@ -607,7 +607,21 @@ background-size:16px 16px;
     text-align: center;
     margin-top: -1rem;
     margin-left: -.5rem;
-    font-size: .75rem;
+    font-size: 1.75rem;
+}
+    
+button {
+    width: 8rem;
+    font-size: .25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    background-color: #00ADEF;
+    color: white;
+    margin-left: -1rem;
+    padding: 3px 30px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-border-radius: 5px;
 }
     
 .sing {
@@ -669,6 +683,15 @@ background-size:16px 16px;
     width: 10rem;
     margin-left: 6%;
 }
+    
+    
+.use {
+    text-align: center;
+    font-size: 1rem;
+}    
+    
+    
+    
 }
 
 @media only screen and (min-width: 20em) {
@@ -710,6 +733,20 @@ background-size:16px 16px;
     padding: 0;
     font-size: 1.5rem;
 }
+    
+button {
+    width: 8rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    background-color: #00ADEF;
+    color: white;
+    margin-left: -1rem;
+    padding: 3px 30px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-border-radius: 5px;
+}    
     
 .buttons {
     text-align: center;
@@ -863,9 +900,6 @@ td {
     
 }
 
-
-
-
 @media only screen and (min-width: 25em) {
     
 .s1 {
@@ -906,8 +940,23 @@ td {
     padding: 0;
     font-size: 1.5rem;
 }
-        
-
+     
+    
+button {
+    width: 8rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    background-color: #00ADEF;
+    color: white;
+    margin-left: -1rem;
+    padding: 3px 30px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-border-radius: 5px;
+}        
+    
+    
 .buttons {
     height: 3rem;
     text-align: center;
@@ -915,9 +964,7 @@ td {
     margin-left: 10rem;
     font-size: .5rem;
     width: 5rem;
-
 }
-
 
 .sing {
     font-size: 2em; 
@@ -951,8 +998,7 @@ td {
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
-    
-    
+      
 .s1p {
     width: 25rem;
     line-height: 5rem;
@@ -977,8 +1023,7 @@ td {
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }    
-
-    
+ 
 .img-flex {
     padding: 0rem;
     margin: 0rem;
@@ -1009,7 +1054,6 @@ td {
     width: auto;
 }
     
-    
 .notep {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -1034,8 +1078,7 @@ td {
     padding-bottom: -1rem;
     padding-top: 1.5rem;
     margin: 0;
-    margin-top: 4rem;
-   
+    margin-top: 4rem; 
 }
 
 .s2 {
@@ -1046,16 +1089,28 @@ td {
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
     margin-top: .75rem; 
-    
 }
 
+button {
+    width: 8rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    background-color: #00ADEF;
+    color: white;
+    margin-left: -1rem;
+    padding: 3px 30px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-border-radius: 5px;
+}         
+    
 .buttons {
     text-align: center;
     font-size: 1.5rem;
     width: 16rem;
     margin: -1.5rem;
-    margin-left: 6rem;
-        
+    margin-left: 6rem;   
 }
 
 .singon {
@@ -1065,9 +1120,7 @@ td {
         
 .bodyi {
     margin: 1.5rem;
-} 
-    
-    
+}
     
 .sing {
     font-size: 2em; 
@@ -1078,7 +1131,6 @@ td {
     padding-top: 25%;
     z-index: 8;
 }
-    
     
 .btni {
     font-size: 1.5rem;
@@ -1102,7 +1154,6 @@ td {
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
-    
     
 .s1p {
     width: 40rem;
@@ -1128,8 +1179,6 @@ td {
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }        
-
-    
     
 .pi {
     font-size: 1rem;
@@ -1137,7 +1186,6 @@ td {
     margin: 3rem;
     padding: 1rem;
 }     
-
 
 .title,
 .nav {
@@ -1226,7 +1274,6 @@ td {
     font-size: 1rem;
 }
     
-
 .notep {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -1238,11 +1285,11 @@ td {
     width: 10rem;
     font-size: 1.75rem;
     margin-left: 1rem; 
-}
-    
+}  
 }
 
 @media only screen and (min-width: 45em) {
+    
 .s1 {
     width: 30rem;
     line-height: 3.5rem;
@@ -1252,7 +1299,6 @@ td {
     margin-bottom: 0rem;
     margin-left: 0rem;
     margin-top: 6rem;
-   
 }
 
 .s2 {
@@ -1272,6 +1318,22 @@ td {
     border-radius: 16px;
     margin-left: -2.5rem;
 }   
+    
+    
+button {
+    width: 8rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    background-color: #00ADEF;
+    color: white;
+    margin-left: -1rem;
+    padding: 3px 30px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-border-radius: 5px;
+}       
+    
 
 .buttons {
     text-align: center;
@@ -1279,7 +1341,15 @@ td {
     margin-left: 8rem;
     margin-top: -2.5rem;
 }
-
+    
+    
+.button button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: 12rem;
+}   
+    
+    
 
 #bodycope {
     width: auto;
@@ -1295,7 +1365,6 @@ td {
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
    
-    
 .s1p {
     width: 40rem;
     line-height: 5rem;
@@ -1306,9 +1375,6 @@ td {
     margin-top: 10rem;
     margin-bottom: 1rem; 
 }    
-    
-    
-    
     
 #bodycopep {
     width: auto;
@@ -1322,9 +1388,7 @@ td {
     color: white;
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
-}  
-    
-    
+}   
     
 .pi {
     font-size: 1rem;
@@ -1332,8 +1396,7 @@ td {
     margin: 3rem;
     padding: 1rem;
 } 
-    
-    
+     
 .img-flex {
     padding: 0rem;
     margin-left: 3rem;
@@ -1351,8 +1414,7 @@ td {
     font-weight: 400;
     font-size: 2rem;
 } 
-    
-    
+     
 .ps {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
@@ -1364,7 +1426,6 @@ td {
 .note {
     font-size: 1.5rem;
 }    
-    
     
 .notep {
     font-size: 1rem;
@@ -1379,7 +1440,6 @@ td {
     margin-left: 1rem; 
 }
 }
-
     
 @media only screen and (min-width: 60em) {
 .s1 {
@@ -1400,8 +1460,23 @@ td {
     font-size: 2rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
-    
 }
+  
+    
+    
+button {
+    width: 8rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    background-color: #00ADEF;
+    color: white;
+    margin-left: -1rem;
+    padding: 3px 30px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-border-radius: 5px;
+}       
     
     
 .buttons {
@@ -1409,7 +1484,6 @@ td {
     font-size: 2rem;
     margin-left: 13rem;
 }
-    
     
 .sing {
     font-size: 2em; 
@@ -1444,8 +1518,6 @@ td {
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
 
-    
-    
 .s1p {
     width: 40rem;
     line-height: 5rem;
@@ -1456,10 +1528,7 @@ td {
     margin-top: 10rem;
     margin-bottom: 1rem; 
 }    
-    
-    
-    
-    
+
 #bodycopep {
     width: auto;
     padding: 1.5rem;
@@ -1473,17 +1542,13 @@ td {
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }  
-    
-    
+
 .pi {
     font-size: 1.25rem;
     line-height: 1.25rem;
     margin: 3rem;
     padding: 1rem;
 } 
-    
-       
-    
     
 .singon {
     font-size: 3rem;
@@ -1521,10 +1586,14 @@ textarea {
     border-radius: 6px;
 }
 
+    
 .button button {
     cursor: pointer;
-}
-
+    font-size: 1.5rem;
+    width: 13rem;
+}       
+    
+    
  table {
     margin: 0 auto;
 }
@@ -1580,9 +1649,17 @@ td {
 }
 }
 
-
-    
 @media only screen and (min-width: 70em) {
+    
+#header {
+    position: fixed;
+    height: 79px;
+    text-align: center;
+    margin-top: -1rem;
+    z-index: 11;
+    opacity: .96;
+}  
+    
 .s1 {
     width: 43rem;
     line-height: 5rem;
@@ -1610,6 +1687,15 @@ td {
 }
 
     
+
+.button button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: 13rem;
+}    
+    
+    
+    
 .sing {
     font-size: 2em; 
     position: fixed;
@@ -1619,8 +1705,7 @@ td {
     padding-top: 25%;
     z-index: 8;
 } 
-    
-    
+       
 .btni {
     font-size: 2.5rem;
     width: 24rem;
@@ -1629,8 +1714,6 @@ td {
     border-radius: 16px;
 }  
 
-    
-    
 .s1p {
     width: 40rem;
     line-height: 5rem;
@@ -1641,9 +1724,6 @@ td {
     margin-top: 12rem;
     margin-bottom: 1rem; 
 }    
-    
-    
-    
     
 #bodycopep {
     width: auto;
@@ -1658,8 +1738,6 @@ td {
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }        
-    
-    
        
 #bodycope {
     width: auto;
@@ -1675,18 +1753,12 @@ td {
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 } 
     
-    
-    
-    
-    
 .pi {
     font-size: 1.5rem;
     line-height: 1.25rem;
     margin: 3rem;
     padding: 1rem;
 } 
-    
-    
     
 .img-flex {
     width: 10rem;
@@ -1712,7 +1784,6 @@ td {
     margin-top: 2.9rem;
 }   
     
-    
 .p {
 
 }
@@ -1729,12 +1800,19 @@ td {
     font-size: 2rem;
     margin-left: -5rem;   
 }
-     
-    
 }   
     
-    
 @media only screen and (min-width: 80em) { 
+    
+#header {
+    position: fixed;
+    height: 79px;
+    text-align: center;
+    margin-top: -1rem;
+    z-index: 11;
+    opacity: .96;
+}    
+    
 .s1 {
     width: 44rem;
     line-height: 5rem;
@@ -1755,10 +1833,6 @@ td {
     margin-bottom: 3rem;    
 }
       
-    
-    
-    
-    
 .s1p {
     width: 40rem;
     line-height: 5rem;
@@ -1769,9 +1843,6 @@ td {
     margin-top: 12rem;
     margin-bottom: 1rem; 
 }    
-    
-    
-    
     
 #bodycopep {
     width: auto;
@@ -1812,8 +1883,7 @@ td {
     margin: 3rem;
     padding: 1rem;
 }    
-    
-    
+
 .bgp {
     margin-top: 2.5rem;
 }
@@ -1831,9 +1901,6 @@ td {
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }*/
-    
-
-    
 
 .linking {
     color: #00ADEF;
@@ -1851,6 +1918,22 @@ textarea {
     
 }
 
+    
+button {
+    width: 9rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    background-color: #00ADEF;
+    color: white;
+    margin-left: -1rem;
+    padding: 3px 30px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-border-radius: 5px;
+}       
+    
+
 /**message,
 .field {
     width: 100%;
@@ -1858,17 +1941,17 @@ textarea {
 }
 textarea {
     height: 10em;
-}**/
+}
 
 .button {
     text-align: center;
     border-radius: 6px;
-}
+}**/
 
 .button button {
     cursor: pointer;
     font-size: 1.5rem;
-    width: 13rem;
+    width: 16rem;
 }
 
 table {
@@ -1892,15 +1975,13 @@ td {
     margin-top: 1rem;
     width: 15rem;
 }
-    
-    
+     
 .singons {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
     font-size: 2rem;
     margin-top: 1rem;
 }
- 
     
 .note {
     font-size: 1rem;
@@ -1914,14 +1995,24 @@ td {
     padding: .25rem;
 } 
     
-    
 .btn {
     width: 11rem;
     font-size: 2rem;
     margin-left: -3rem; 
 }
-
-
+  
+    
+.btnpi:hover {
+    background-color: #05A6D8;
+    position: relative;
+    top: -1px;
+    text-shadow: rgba(6,7,0,1) .5px .5px .5px;
 }
 
-
+.btnpi:active {
+    position: relative;
+    top: 1px;
+    border-bottom-width: 1px;
+    background-color: #05A6D8;
+}    
+}
