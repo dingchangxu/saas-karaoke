@@ -1263,6 +1263,19 @@ button {
     padding: 2rem;
     width: auto;
 } 
+ 
+    
+.singonst {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 2rem;
+    width: auto;
+    margin-top: 15rem;
+} 
+    
+    
+    
     
 .sign {
     text-align: center;
@@ -1538,7 +1551,19 @@ td {
     width: 10rem;
     font-size: 1.75rem;
     margin-left: 1rem; 
-}  
+} 
+    
+    
+.singonst {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 2rem;
+    width: auto;
+    margin-top: 15rem;
+}     
+        
+    
 }
 
 @media only screen and (min-width: 45em) {
@@ -1692,6 +1717,21 @@ button {
     font-size: 1.75rem;
     margin-left: 1rem; 
 }
+    
+    
+    
+    
+.singonst {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding: 2rem;
+    width: auto;
+    margin-top: 15rem;
+}     
+        
+    
+    
 }
     
 @media only screen and (min-width: 60em) {
@@ -1900,6 +1940,21 @@ td {
 .bodyi {
     margin: 0rem;
 }
+    
+    
+    
+.singonst {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 3rem;
+    padding: 2rem;
+    width: auto;
+    margin-top: 15rem;
+}     
+        
+    
+    
+    
 }
 
 @media only screen and (min-width: 70em) {
@@ -2053,6 +2108,19 @@ td {
     font-size: 2rem;
     margin-left: -5rem;   
 }
+    
+    
+.singonst {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 3rem;
+    padding: 2rem;
+    width: auto;
+    margin-top: 15rem;
+}     
+        
+    
+
 }   
     
 @media only screen and (min-width: 80em) { 
@@ -2351,7 +2419,14 @@ td {
  
     
     
-    
+.singonst {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 3rem;
+    padding: 2rem;
+    width: auto;
+    margin-top: 15rem;
+}     
     
     
     
