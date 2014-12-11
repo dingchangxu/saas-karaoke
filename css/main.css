@@ -648,6 +648,54 @@ textarea: hover {
 
 
 
+.qa1 {
+    color: white;
+    text-align: center;
+    opacity: .7;
+}          
+
+.qa1:hover {
+    position: relative;
+    opacity: 100;
+    top: -2px;
+    text-shadow: rgba(6,7,0,1) .5px .5px .5px;
+}
+
+.qa2 {
+    color: white;
+    text-align: center;
+    opacity: .7;
+}          
+
+.qa2:hover {
+    position: relative;
+    opacity: 10;
+    top: -2px;
+    text-shadow: rgba(6,7,0,1) .5px .5px .5px;
+}
+
+    
+.qa3 {
+    color: white;
+    text-align: center;
+    opacity: .7;
+}          
+
+.qa3:hover {
+    position: relative;
+    opacity: 10;
+    top: -2px;
+    text-shadow: rgba(6,7,0,1) .5px .5px .5px;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 10em) {  
@@ -2257,39 +2305,50 @@ td {
     background-color: #05A6D8;
 }    
     
+
     
     
-    
-    
-    
-    
-    
-    
-    
-.qa1,
-.qa2,
-.qa3 {
-    /*cursor: pointer;*/
+.qa1 {
     color: white;
     text-align: center;
-    opacity: .4;
+    opacity: .7;
 }          
 
-.qa1,
-.qa2,
-.qa3:hover {
+.qa1:hover {
     position: relative;
-    opacity: .9;
+    opacity: 100;
+    top: -2px;
+    text-shadow: rgba(6,7,0,1) .5px .5px .5px;
+}
+
+.qa2 {
+    color: white;
+    text-align: center;
+    opacity: .7;
+}          
+
+.qa2:hover {
+    position: relative;
+    opacity: 10;
     top: -2px;
     text-shadow: rgba(6,7,0,1) .5px .5px .5px;
 }
 
     
- .notepq {
-     opacity: .9;
- }   
-    
-    
+.qa3 {
+    color: white;
+    text-align: center;
+    opacity: .7;
+}          
+
+.qa3:hover {
+    position: relative;
+    opacity: 10;
+    top: -2px;
+    text-shadow: rgba(6,7,0,1) .5px .5px .5px;
+}
+
+ 
     
     
     
