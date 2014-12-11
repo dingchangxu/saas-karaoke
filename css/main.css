@@ -275,6 +275,7 @@ button {
     position: relative;
     top: -2px;
     text-shadow: rgba(6,7,0,1) .5px .5px .5px;
+    animation-name:  
 }
 
 .kindlink:active {
@@ -421,7 +422,6 @@ a:focus {
 }
 
 .bgp {
-    /*background-image: url("../images/srz.gif");*/
     background-image: url("../images/dreams.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -429,6 +429,26 @@ a:focus {
     background-attachment: fixed; 
     background-color: black;
 }
+
+
+
+.bgs {
+    background-image: url("../images/dreams.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 3.4rem;
+    background-color: black;
+}
+
+.bgt {
+    background-image: url("../images/dreams.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 3.4rem;
+    background-color: black;
+}
+
+
 
 .nav {
     text-align: center;
@@ -478,10 +498,7 @@ a:focus {
     top: -2px;
 }
 
-
-
-.section-dark {
-    
+.section-dark { 
     background-color: black;
     overflow: hidden;
     background-size: 13rem;
@@ -506,7 +523,7 @@ a:focus {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center 14.9rem;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -564,15 +581,6 @@ footer {
     width: 100%;    
 }
 
-/*table {
-    margin: 0 auto;
-    
-}
-
-th,
-td {
-    text-align: left;
-}*/
 
 #bodycope {
     font-family: 'Open Sans', sans-serif;
@@ -673,8 +681,7 @@ textarea: hover {
     top: -2px;
     text-shadow: rgba(6,7,0,1) .5px .5px .5px;
 }
-
-    
+   
 .qa3 {
     color: white;
     text-align: center;
@@ -688,12 +695,15 @@ textarea: hover {
     text-shadow: rgba(6,7,0,1) .5px .5px .5px;
 }
 
-
-
-
-
-
-
+    
+.singonst {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: .25rem;
+    padding: 0rem;
+    width: auto;
+    margin-top: 15rem;
+}  
 
 
 
@@ -763,21 +773,6 @@ textarea: hover {
 .btnp {
     margin-left: 1rem;
 }
-    
-/*.singon {
-    padding: 0rem;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-}
-    
-
-.singonp {
-    padding: 0rem;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    opacity: .8;
-} */   
-    
 
 .buttons {
     text-align: center;
@@ -823,21 +818,16 @@ button {
     margin-right: 45%;
     margin-bottom: -2.5rem;
 } 
-    
-    
-    
+     
 .logo:hover {
     opacity: .6;
     position: relative;
     top: -2px;
-}
-    
-    
+} 
     
 .nav li {
     display: inline-block;
-}  
-    
+}    
     
 #bodycope {
     width: auto;
@@ -866,8 +856,7 @@ button {
     z-index: 10;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }    
-    
-    
+     
 .img-flex {
     padding: 0rem;
     width: 10rem;
@@ -896,11 +885,15 @@ textarea {
     
     
     
-    
-    
-    
-    
-    
+.singonst {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0rem;
+    width: auto;
+    margin-top: 15rem;
+}      
+
     
 }
 
@@ -1054,8 +1047,7 @@ button {
     margin-left: 16%;
     width: 14rem;
 }
-    
-    
+     
 .password,
 legend,
 .name,
@@ -1106,16 +1098,18 @@ td {
     line-height: 1.5rem;
     font-weight: 400;
     padding: .5rem;
-} 
+}  
     
     
-    
-    
-    
-    
-    
-    
-    
+.singonst {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0rem;
+    width: auto;
+    margin-top: 15rem;
+}         
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -1158,8 +1152,7 @@ td {
     padding: 0;
     font-size: 1.5rem;
 }
-     
-    
+        
 button {
     width: 10rem;
     font-size: 1.25rem;
@@ -1173,8 +1166,7 @@ button {
     text-align: center;
     -webkit-border-radius: 5px;
 }        
-    
-    
+       
 .buttons {
     height: 3rem;
     text-align: center;
@@ -1272,10 +1264,7 @@ button {
     padding: 2rem;
     width: auto;
     margin-top: 15rem;
-} 
-    
-    
-    
+}  
     
 .sign {
     text-align: center;
@@ -1303,9 +1292,7 @@ button {
     font-size: 2rem;
     margin-left: 1rem; 
 }
-    
-    
-    
+  
 .btnpib1 {
     width: 17rem;
     height: 3.5rem;
@@ -1335,7 +1322,16 @@ button {
     background-color: #05A6D8;
 }    
     
-
+    
+.singonst {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 2rem;
+    width: auto;
+    margin-top: 15rem;
+}      
+    
 }
 
 @media only screen and (min-width: 38em) {
@@ -1372,12 +1368,7 @@ button {
     text-align: center;
     -webkit-border-radius: 5px;
 }           
-    
-    
-    
-    
-    
-    
+  
 .buttons {
     text-align: center;
     font-size: 1.5rem;
@@ -1471,8 +1462,6 @@ button {
 
 }
 
-
-
 legend,
 .name,
 .email,
@@ -1502,15 +1491,6 @@ textarea {
     cursor: pointer;
 }
 
-/*table {
-    margin: 0 auto;
-}
-
-th,
-td {
-    text-align: left;
-}*/
-    
 .img-flex {
     padding: 0rem;
     margin-left: 2rem;
@@ -1561,9 +1541,7 @@ td {
     padding: 2rem;
     width: auto;
     margin-top: 15rem;
-}     
-        
-    
+}       
 }
 
 @media only screen and (min-width: 45em) {
@@ -1612,23 +1590,19 @@ button {
     -webkit-border-radius: 5px;
 }       
     
-
 .buttons {
     text-align: center;
     font-size: 1.5rem;
     margin-left: 8rem;
     margin-top: -2.5rem;
 }
-    
-    
+      
 .button button {
     cursor: pointer;
     font-size: 1.5rem;
     width: 12rem;
 }   
     
-    
-
 #bodycope {
     width: auto;
     padding: 1.5rem;
@@ -1717,10 +1691,7 @@ button {
     font-size: 1.75rem;
     margin-left: 1rem; 
 }
-    
-    
-    
-    
+      
 .singonst {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
@@ -1729,12 +1700,10 @@ button {
     width: auto;
     margin-top: 15rem;
 }     
-        
-    
-    
 }
     
 @media only screen and (min-width: 60em) {
+    
 .s1 {
     width: 34rem;
     line-height: 4rem;
@@ -1754,9 +1723,7 @@ button {
     margin-left: 2rem;
     margin-bottom: 2rem;
 }
-  
-    
-    
+
 button {
     width: 8rem;
     font-size: 1.25rem;
@@ -1770,8 +1737,7 @@ button {
     text-align: center;
     -webkit-border-radius: 5px;
 }       
-    
-    
+      
 .buttons {
     text-align: center;
     font-size: 2rem;
@@ -1869,10 +1835,6 @@ message,
     width: 100%;
     height: 1.8rem;
 }
-    
-/*textarea {
-    height: 10em;
-}*/
 
 .button {
     text-align: center;
@@ -1885,16 +1847,6 @@ message,
     font-size: 1.5rem;
     width: 13rem;
 }       
-    
-    
-/*table {
-    margin: 0 auto;
-}
-
-th,
-td {
-    text-align: left;
-}*/
 
 .img-flex {
     padding: 0rem;
@@ -1940,9 +1892,7 @@ td {
 .bodyi {
     margin: 0rem;
 }
-    
-    
-    
+      
 .singonst {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
@@ -1950,11 +1900,7 @@ td {
     padding: 2rem;
     width: auto;
     margin-top: 15rem;
-}     
-        
-    
-    
-    
+}       
 }
 
 @media only screen and (min-width: 70em) {
@@ -1993,16 +1939,12 @@ td {
     font-size: 2rem;
     margin-left: 18rem;
 }
-
     
-
 .button button {
     cursor: pointer;
     font-size: 1.5rem;
     width: 13rem;
-}    
-    
-    
+}     
     
 .sing {
     font-size: 2em; 
@@ -2117,10 +2059,7 @@ td {
     padding: 2rem;
     width: auto;
     margin-top: 15rem;
-}     
-        
-    
-
+}
 }   
     
 @media only screen and (min-width: 80em) { 
@@ -2208,20 +2147,6 @@ td {
 .bgp {
     margin-top: 2.5rem;
 }
-    
-/*#bodycope {
-    width: auto;
-    padding: 1.5rem;
-    text-align: center;
-    position: relative;
-    top: 66.5vw;
-    margin-top: 0%;
-    background-color: #333;
-    height: auto;
-    color: white;
-    z-index: 10;
-    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
-}*/
 
 .linking {
     color: #00ADEF;
@@ -2238,8 +2163,7 @@ textarea {
     font-size: 1.125em;
     
 }
-
-    
+  
 button {
     width: 9rem;
     font-size: 1.75rem;
@@ -2253,39 +2177,13 @@ button {
     text-align: center;
     -webkit-border-radius: 5px;
 }       
-    
-
-/**message,
-.field {
-    width: 100%;
-    height: 1.8rem;
-}
-textarea {
-    height: 10em;
-}
-
-    
-table {
-margin: 0 auto;
-}
-
-th,
-td {
-    text-align: left;
-}
-.button {
-    text-align: center;
-    border-radius: 6px;
-}**/
 
 .button button {
     cursor: pointer;
     font-size: 1.5rem;
     width: 16rem;
 }
-
-
-    
+ 
 .img-flex {
     width: 12rem;
     padding: 0;
@@ -2323,7 +2221,6 @@ td {
     font-size: 2rem;
     margin-left: -3rem; 
 }
-  
     
 .btnpi:hover {
     background-color: #05A6D8;
@@ -2372,10 +2269,7 @@ td {
     border-bottom-width: 1px;
     background-color: #05A6D8;
 }    
-    
 
-    
-    
 .qa1 {
     color: white;
     text-align: center;
@@ -2416,9 +2310,6 @@ td {
     text-shadow: rgba(6,7,0,1) .5px .5px .5px;
 }
 
- 
-    
-    
 .singonst {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
@@ -2426,13 +2317,5 @@ td {
     padding: 2rem;
     width: auto;
     margin-top: 15rem;
-}     
-    
-    
-    
-    
-    
-    
-    
-    
+}   
 }
