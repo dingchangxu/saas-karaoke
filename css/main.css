@@ -103,13 +103,13 @@ h3 {
     padding-top: 45%;
     z-index: 8;
     margin-top: 3.15rem;
+   
 }
 
 .sing2{
     padding-right: 4rem;
     margin-left: -5rem;
     margin-top: -4rem;
-    
 }
 
 .s1 {
@@ -122,6 +122,9 @@ h3 {
     padding-right: 3rem;
     margin-top: 1rem;
     margin-left: -2.25rem;
+    background-color: rgba(255, 255, 255, .7);
+    box-shadow: 0 0 20px #fff;
+    border-radius: 16px;
 }
 
 .s2 {
@@ -174,7 +177,6 @@ h3 {
     text-decoration: none;
     display: inline-block;
 }
-
 
 
 
@@ -237,6 +239,7 @@ h3 {
     padding: 3px 30px;
     cursor: pointer;
     text-align: center;
+    display: inline-block;
     -webkit-border-radius: 5px;
 }          
     
@@ -729,7 +732,7 @@ textarea: hover {
 .s1 {
     width: 14rem;
     margin-left: -3rem;
-    margin-top: 5rem;
+    margin-top: 6.5rem;
     margin-bottom: 0rem;
     font-size: 1rem;
     line-height: 1rem;
@@ -738,7 +741,7 @@ textarea: hover {
 .s2 {
     width: 10rem;
     line-height: .75rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     margin-left: -2.5rem;
 }
       
@@ -786,12 +789,12 @@ textarea: hover {
 
 .btni {
     text-align: center;
-    margin-left: -.75rem;
+    margin-left: -1.25rem;
     font-size: 1.75rem;
-    width: 17rem;
+    width: 8rem;
     font-size: .5rem;
     font-weight: bold;
-    margin-top: 1rem;
+    margin-top: -1rem;
     background-color: #00ADEF;
     color: white;
     padding: 3px 30px;
@@ -912,7 +915,7 @@ textarea {
 .s1 {
     width: 14rem;
     margin-left: -1.5rem;
-    margin-top: 5rem;
+    margin-top: 6.5rem;
     font-size: 1.25rem;
     line-height: 1.25rem;
 }
@@ -1126,8 +1129,8 @@ td {
     
 .s1 {
     width: 18rem;
-    margin-left: 5rem;
-    margin-top: 6rem;
+    margin-left: 9rem;
+    margin-top: 8rem;
     font-size: 1.5rem;
     line-height: 1.75rem;
 }
@@ -1144,7 +1147,7 @@ td {
     width: 17rem;
     line-height: 1rem;
     margin-bottom: 1.5rem;
-    margin-left: 4rem;
+    margin-left: 8rem;
     font-size: 1rem;
 }
     
@@ -1190,7 +1193,7 @@ button {
     font-size: 2em; 
     position: fixed;
     text-align: center;
-    padding-left: 9rem;
+    padding-left: 7rem;
     padding-bottom: 10rem;
     padding-top: 25%;
     z-index: 8;
@@ -1202,7 +1205,7 @@ button {
     height: 2rem;
     margin-top: -.25rem;
     border-radius: 10px;
-    margin-left: -2.5rem;
+    margin-left: 1rem;
 }  
 
 #bodycope {
