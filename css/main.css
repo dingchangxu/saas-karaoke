@@ -144,7 +144,7 @@ h3 {
 }
 
 
-button {
+/*button {
     width: 8rem;
     font-size: 1.25rem;
     font-weight: bold;
@@ -156,7 +156,29 @@ button {
     cursor: pointer;
     text-align: center;
     -webkit-border-radius: 5px;
+}*/
+
+
+.btni {
+    width: 8rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    background-color: #00ADEF;
+    color: white;
+    margin-left: .5rem;
+    padding: 3px 30px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
 }
+
+
+
+
+
 
 .btni:hover {
     background-color: #05A6D8;
@@ -278,12 +300,18 @@ body {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
     font-size: 1rem;
+    padding: 2rem;
+    width: auto;
+    color: white;
     margin-top: 2rem;
     margin-bottom: 1rem;
     padding: 0rem;
-    text-align: center;
-    color: white;
-}
+} 
+
+
+
+
+
 
 .ps {
     font-family: 'Open Sans', sans-serif; 
@@ -425,20 +453,9 @@ a:focus {
 }
 
 
-
-
-
-
-
-
-
 .nav li {
     display: inline-block;
 }
-
-
-
-
 
 .nav-footer {
     font-size: .75rem;
@@ -629,20 +646,22 @@ background-size:16px 16px;
 legend,
 .name,
 .email,
+.Confirm-Password,
+.password,
 textarea {
     width: 100%;
     font-size: .5em;
 }
 
 
-legend,
+/*legend,
 .name,
 .email,
 textarea: hover {
     color: #00ADEF;
     position: relative;
     top: -2px;
-}
+}*/
 
 
 
@@ -765,15 +784,11 @@ textarea: hover {
     margin-left: 1rem;
 }
 
-.buttons {
+.btni {
     text-align: center;
-    margin-top: -1rem;
     margin-left: -.75rem;
     font-size: 1.75rem;
-}
-    
-button {
-    width: 7rem;
+    width: 17rem;
     font-size: .5rem;
     font-weight: bold;
     margin-top: 1rem;
@@ -781,9 +796,11 @@ button {
     color: white;
     padding: 3px 30px;
     cursor: pointer;
-    text-align: center;
     -webkit-border-radius: 5px;
-}
+} 
+    
+    
+    
     
 .sing {
     font-size: 2em; 
@@ -869,6 +886,8 @@ button {
 legend,
 .name,
 .email,
+.Confirm Password,
+.password,
 textarea {
     width: 100%;
     font-size: .5em;
