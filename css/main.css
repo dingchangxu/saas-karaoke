@@ -282,6 +282,7 @@ body {
     margin-bottom: 1rem;
     padding: 0rem;
     text-align: center;
+    color: white;
 }
 
 .ps {
@@ -401,7 +402,7 @@ a:focus {
 
 
 .bgs {
-    background-image: url("../images/dreams.jpg");
+    /*background-image: url("../images/dreams.jpg");*/
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center 3.4rem;
@@ -485,7 +486,7 @@ a:focus {
 }
 
 .section-mids {
-    background-image: url("../images/imgs.jpg");
+    /*background-image: url("../images/imgs.jpg");*/
     background-color: black;
     width: 100%;
     background-size: contain;
@@ -495,10 +496,20 @@ a:focus {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
 
 .section-midt {
-    background-image: url("../images/imgs.jpg");
     background-color: black;
     width: 100%;
     background-size: contain;
@@ -507,6 +518,17 @@ a:focus {
     background-attachment: fixed; 
     height: 40rem;
     color: white;
+    background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+    height: auto;
+    color: white;
+    z-index: 10;
+    text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
 
 
@@ -670,7 +692,8 @@ textarea: hover {
     font-size: .25rem;
     padding: 0rem;
     width: auto;
-    margin-top: 15rem;
+    margin-top: 10rem;
+    text-align: center;
 }  
 
 
@@ -1298,6 +1321,7 @@ button {
     padding: 2rem;
     width: auto;
     margin-top: 15rem;
+    margin-bottom: 15rem;
 }      
     
 }
@@ -1502,14 +1526,14 @@ textarea {
 } 
     
     
-.singonst {
+/*.singonst {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
     font-size: 1.5rem;
     padding: 2rem;
     width: auto;
     margin-top: 15rem;
-}       
+} */      
 }
 
 @media only screen and (min-width: 45em) {
@@ -1660,14 +1684,14 @@ button {
     margin-left: 1rem; 
 }
       
-.singonst {
+/*.singonst {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
     font-size: 2.5rem;
     padding: 2rem;
     width: auto;
     margin-top: 15rem;
-}     
+}*/     
 }
     
 @media only screen and (min-width: 60em) {
@@ -1868,7 +1892,7 @@ message,
     padding: 2rem;
     width: auto;
     margin-top: 15rem;
-}       
+} 
 }
 
 @media only screen and (min-width: 70em) {
@@ -2019,15 +2043,6 @@ message,
     margin-left: -5rem;   
 }
     
-    
-.singonst {
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 400;
-    font-size: 3rem;
-    padding: 2rem;
-    width: auto;
-    margin-top: 15rem;
-}
 }   
     
 @media only screen and (min-width: 80em) { 
@@ -2277,13 +2292,4 @@ button {
     top: -2px;
     text-shadow: rgba(6,7,0,1) .5px .5px .5px;
 }
-
-.singonst {
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 400;
-    font-size: 3rem;
-    padding: 2rem;
-    width: auto;
-    margin-top: 15rem;
-}   
 }
