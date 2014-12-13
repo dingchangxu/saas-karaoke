@@ -805,7 +805,7 @@ textarea: hover {
     
 .pi {
     font-size: 1rem;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
     margin: 0;
     padding: 0;
 }
@@ -1857,7 +1857,7 @@ button {
 
 .pi {
     font-size: 1.25rem;
-    line-height: 1.25rem;
+    line-height: 2rem;
     margin: 3rem;
     padding: 1rem;
 } 
@@ -2058,7 +2058,7 @@ message,
     
 .pi {
     font-size: 1.5rem;
-    line-height: 1.25rem;
+    line-height: 2rem;
     margin: 3rem;
     padding: 1rem;
 } 
@@ -2183,7 +2183,7 @@ message,
     
 .pi {
     font-size: 1.5rem;
-    line-height: 1.25rem;
+    line-height: 2rem;
     margin: 3rem;
     padding: 1rem;
 }    
