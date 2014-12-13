@@ -26,7 +26,6 @@ html {
   html {
     font-size: 110%;
   }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -34,7 +33,6 @@ html {
   html {
     font-size: 120%;
   }
-
 }
 
 @media only screen and (min-width: 120em) {
@@ -42,9 +40,7 @@ html {
     html {
     font-size: 130%;
   }
-
 }
-
 
 #header {
     position: fixed;
@@ -63,7 +59,6 @@ h1 {
     table-layout: fixed;
     width: 3rem;
     margin-bottom: -.5rem;
-    /*text-shadow: rgba(6,7,0,3)  1px 1px .5px;*/
 }
 
 h2 {
@@ -121,8 +116,7 @@ h3 {
     padding-right: 3rem;
     margin-top: 1rem;
     margin-left: -2.25rem;
-    text-shadow: 2px 2px 5rem white;
-    
+    text-shadow: 2px 2px 5rem white;  
 }
 
 .s2 {
@@ -144,22 +138,6 @@ h3 {
     color: white;
 }
 
-
-/*button {
-    width: 8rem;
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    background-color: #00ADEF;
-    color: white;
-    margin-left: .5rem;
-    padding: 3px 30px;
-    cursor: pointer;
-    text-align: center;
-    -webkit-border-radius: 5px;
-}*/
-
-
 .btni {
     width: 8rem;
     font-size: 1.25rem;
@@ -175,7 +153,6 @@ h3 {
     text-decoration: none;
     display: inline-block;
 }
-
 
 .btnpi {
     width: 9rem;
@@ -193,7 +170,6 @@ h3 {
     display: inline-block;
 }
 
-
 .btnpi:hover {
     background-color: #05A6D8;
     position: relative;
@@ -207,7 +183,6 @@ h3 {
     border-bottom-width: 1px;
     background-color: #05A6D8;
 }
-
 
 .btni:hover {
     background-color: #05A6D8;
@@ -223,7 +198,6 @@ h3 {
     background-color: #05A6D8;
 }
 
-
 .btnpi:hover {
     background-color: #05A6D8;
     position: relative;
@@ -237,22 +211,6 @@ h3 {
     border-bottom-width: 1px;
     background-color: #05A6D8;
 }
-
-/*.btnpib:hover {
-    width: 11rem;
-    background-color: #05A6D8;
-    position: relative;
-    top: -1px;
-    text-shadow: rgba(6,7,0,1) .5px .5px .5px;
-}
-
-.btnpib:active {
-    position: relative;
-    top: 1px;
-    border-bottom-width: 1px;
-    background-color: #05A6D8;
-}*/
-
 
 .btnpib1 {
     width: 10.5rem;
@@ -284,8 +242,6 @@ h3 {
     background-color: #05A6D8;
 }    
     
-
-
 .kindlink {
     text-align: center;
 }
@@ -302,7 +258,6 @@ h3 {
     position: relative;
     top: 1px;
 }
-
 
 body {
     margin: 0;
@@ -338,11 +293,6 @@ body {
     padding: 0rem;
 } 
 
-
-
-
-
-
 .ps {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
@@ -356,9 +306,8 @@ body {
 
 .sign {
     text-align: center;
-    font-size: 1.25rem;
-    line-height: 1.25rem;
-    
+    font-size: .75rem;
+    line-height: 1.25rem; 
 }
 
 .note {
@@ -402,17 +351,11 @@ a:focus {
     position: fixed;
 }
 
-
 .img-flex {
     display: block;
     width: 100%;
     opacity: .8;
 }
-
-/*.img-flexp {
-    display: block;
-    width: 100%;
-}*/
 
 .flex {
     width: 17rem;
@@ -448,7 +391,6 @@ a:focus {
     background-attachment: fixed;
 }
 
-
 .bgp {
     background-image: url("../images/dreams.jpg");
     background-size: contain;
@@ -458,7 +400,6 @@ a:focus {
     background-color: black;
 }
 
-
 .darken {
   background-image: 
     linear-gradient(
@@ -467,8 +408,6 @@ a:focus {
     ),
     url("../images/dreams.jpg");
 }
-
-
 
 .bgs {
     /*background-image: url("../images/dreams.jpg");*/
@@ -485,8 +424,6 @@ a:focus {
     background-position: center 3.4rem;
     background-color: black;
 }
-
-
 
 .nav {
     text-align: center;
@@ -589,23 +526,9 @@ background-size:16px 16px;
     text-shadow: rgba(6,7,0,1) 1px 1px 2px;
 }
 
-
 .link {
     text-decoration: none;
 }
-
-
-/*.section {
-    background-color: #fff;
-}
-
-.intro {
-    text-align: center;
-}
-
-.discovery-title-extra {
-    display: none;
-}*/
 
 .copyright { 
     text-align: center;
@@ -628,7 +551,6 @@ footer {
     height: 5rem;
     width: 100%;    
 }
-
 
 #bodycope {
     font-family: 'Open Sans', sans-serif;
@@ -683,7 +605,6 @@ background-size:16px 16px;
     padding: .5rem;
 } 
 
-
 legend,
 .name,
 .email,
@@ -693,18 +614,6 @@ textarea {
     width: 100%;
     font-size: .5em;
 }
-
-
-/*legend,
-.name,
-.email,
-textarea: hover {
-    color: #00ADEF;
-    position: relative;
-    top: -2px;
-}*/
-
-
 
 .qa1 {
     color: white;
@@ -744,8 +653,7 @@ textarea: hover {
     top: -2px;
     text-shadow: rgba(6,7,0,1) .5px .5px .5px;
 }
-
-    
+ 
 .singonst {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
@@ -756,9 +664,6 @@ textarea: hover {
     text-align: center;
     color: white;
 }  
-
-
-
 
 @media only screen and (min-width: 10em) {  
     
@@ -840,10 +745,7 @@ textarea: hover {
     cursor: pointer;
     -webkit-border-radius: 5px;
 } 
-    
-    
-    
-    
+ 
 .sing {
     font-size: 2em; 
     position: fixed;
@@ -852,9 +754,8 @@ textarea: hover {
     padding-bottom: 10rem;
     padding-top: 25%;
     z-index: 8;
-}
+}   
 
-    
 .nav {
     padding: 0;
     font-size: 1rem;
@@ -918,8 +819,7 @@ textarea: hover {
     width: 10rem;
     margin-left: 6%;
 }
-    
-    
+      
 .use {
     text-align: center;
     font-size: 1rem;
@@ -934,9 +834,7 @@ textarea {
     width: 100%;
     font-size: .5em;
 }  
-    
-    
-    
+ 
 .singonst {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
@@ -944,9 +842,7 @@ textarea {
     padding: 0rem;
     width: auto;
     margin-top: 15rem;
-}      
-
-    
+}  
 }
 
 @media only screen and (min-width: 20em) {
@@ -1026,7 +922,13 @@ button {
     margin-top: .25rem;
     border-radius: 5px;
     margin-left: -1.5rem;
-}  
+} 
+     
+.sign {
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.25rem; 
+}       
     
 #bodycope {
     width: auto;
@@ -1151,8 +1053,7 @@ td {
     font-weight: 400;
     padding: .5rem;
 }  
-    
-    
+       
 .singonst {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
@@ -1161,7 +1062,6 @@ td {
     width: auto;
     margin-top: 15rem;
 }         
-
 }
 
 @media only screen and (min-width: 25em) {
@@ -1307,8 +1207,7 @@ button {
     padding: 2rem;
     width: auto;
 } 
- 
-    
+     
 .singonst {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
@@ -1320,7 +1219,7 @@ button {
     
 .sign {
     text-align: center;
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     line-height: 1.25rem;
 }
     
@@ -1373,8 +1272,7 @@ button {
     border-bottom-width: 1px;
     background-color: #05A6D8;
 }    
-    
-    
+       
 .singonst {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
@@ -1383,8 +1281,7 @@ button {
     width: auto;
     margin-top: 15rem;
     margin-bottom: 15rem;
-}      
-    
+}        
 }
 
 @media only screen and (min-width: 38em) {
@@ -1447,7 +1344,13 @@ button {
     padding-bottom: 13rem;
     padding-top: 25%;
     z-index: 8;
-}
+}   
+    
+.sign {
+    text-align: center;
+    font-size: 2.75rem;
+    line-height: 1.25rem; 
+}       
     
 .btni {
     font-size: 1.5rem;
@@ -1584,17 +1487,7 @@ textarea {
     width: 10rem;
     font-size: 1.75rem;
     margin-left: 1rem; 
-} 
-    
-    
-/*.singonst {
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 400;
-    font-size: 1.5rem;
-    padding: 2rem;
-    width: auto;
-    margin-top: 15rem;
-} */      
+}    
 }
 
 @media only screen and (min-width: 45em) {
@@ -1627,8 +1520,7 @@ textarea {
     border-radius: 16px;
     margin-left: -2.5rem;
 }   
-    
-    
+       
 button {
     width: 8rem;
     font-size: 1.25rem;
@@ -1743,16 +1635,7 @@ button {
     width: 10rem;
     font-size: 1.75rem;
     margin-left: 1rem; 
-}
-      
-/*.singonst {
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 400;
-    font-size: 2.5rem;
-    padding: 2rem;
-    width: auto;
-    margin-top: 15rem;
-}*/     
+}  
 }
     
 @media only screen and (min-width: 60em) {
@@ -1894,7 +1777,6 @@ message,
     border-radius: 6px;
 }
 
-    
 .button button {
     cursor: pointer;
     font-size: 1.5rem;
@@ -2102,8 +1984,7 @@ message,
     width: 11rem;
     font-size: 2rem;
     margin-left: -5rem;   
-}
-    
+}   
 }   
     
 @media only screen and (min-width: 80em) { 
@@ -2179,8 +2060,7 @@ message,
     margin-top: 1rem;
     border-radius: 16px;
 }  
-    
-    
+      
 .pi {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2204,8 +2084,7 @@ legend,
 .favb,
 textarea {
     width: 100%;
-    font-size: 1.125em;
-    
+    font-size: 1.125em; 
 }
   
 button {
@@ -2279,8 +2158,7 @@ button {
     border-bottom-width: 1px;
     background-color: #05A6D8;
 }    
-    
-    
+      
 .nav-footer {
     font-size: .75rem;
 }    
@@ -2339,7 +2217,6 @@ button {
     top: -2px;
     text-shadow: rgba(6,7,0,1) .5px .5px .5px;
 }
-
     
 .qa3 {
     color: white;
